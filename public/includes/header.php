@@ -49,6 +49,7 @@
           <li class="nav-item"><a class="nav-link" href="cadastro_empresa.php">Cadastro Empresa</a></li>
           <li class="nav-item"><a class="nav-link" href="index.php#faq">FAQ</a></li>
           <li class="nav-item"><a class="nav-link" href="index.php#contato">Contato</a></li>
+          <li class="nav-item"><a class="nav-link" href="login.php"><i class="bi bi-box-arrow-in-right"></i> Login</a></li>
         </ul>
       </div>
     </div>
