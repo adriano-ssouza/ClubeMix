@@ -1,7 +1,7 @@
   </main>
   <footer class="footer mt-auto py-3 bg-dark text-white">
     <div class="container text-center">
-      <p class="mb-1">&copy; 2024 ClubeMix. Todos os direitos reservados.</p>
+      <p class="mb-1">&copy; 2025 ClubeMix. Todos os direitos reservados.</p>
       <small>Desenvolvido para facilitar o acesso à bonificação e benefícios.</small>
     </div>
   </footer>
