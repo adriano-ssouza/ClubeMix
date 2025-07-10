@@ -1,0 +1,43 @@
+Estrutura sugerida para a área não logada do ClubeMix:
+
+/
+├── public/
+│   ├── index.php
+│   ├── cadastro_cliente.php
+│   ├── cadastro_empresa.php
+│   ├── assets/
+│   │   ├── css/
+│   │   │   └── style.css
+│   │   ├── js/
+│   │   │   └── scripts.js
+│   │   └── img/
+│   │       └── ...
+│   └── includes/
+│       ├── header.php
+│       ├── footer.php
+│       └── navbar.php
+├── src/
+│   ├── controllers/
+│   │   ├── ClienteController.php
+│   │   └── EmpresaController.php
+│   ├── models/
+│   │   ├── Cliente.php
+│   │   └── Empresa.php
+│   └── config/
+│       └── database.php
+├── templates/
+│   ├── home_content.php
+│   ├── cadastro_cliente_form.php
+│   └── cadastro_empresa_form.php
+├── docs/
+│   └── ...
+└── README.md
+
+Observações:
+- A pasta public/ contém os arquivos acessíveis diretamente pelo navegador.
+- assets/ armazena CSS, JS e imagens.
+- includes/ para componentes reutilizáveis (cabeçalho, rodapé, menu).
+- src/ para lógica de backend (controllers, models, config).
+- templates/ para partes de HTML reutilizáveis ou páginas parciais.
+- docs/ para documentação.
+- README.md para instruções do projeto. 

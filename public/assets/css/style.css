@@ -1,0 +1,44 @@
+body {
+  background-color: #fff;
+  color: #222;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.navbar, .footer {
+  background-color: #111;
+  color: #fff;
+}
+
+.btn-primary, .bg-primary {
+  background-color: #1db954 !important; /* Verde ClubeMix */
+  border-color: #1db954 !important;
+  color: #fff !important;
+}
+
+.text-primary {
+  color: #1db954 !important;
+}
+
+a {
+  color: #1db954;
+}
+
+a:hover {
+  color: #111;
+  text-decoration: underline;
+}
+
+.card {
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+input, select, textarea {
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+::placeholder {
+  color: #888;
+  opacity: 1;
+} 
