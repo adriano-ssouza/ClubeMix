@@ -1,22 +1,30 @@
 <?php include 'includes/header.php'; ?>
+<!--
+  Inclua sempre os arquivos CSS e JS externos, organizados por prioridade de uso.
+  style.css: estilos globais e principais do site.
+  scripts.js: scripts JS principais (crie o arquivo se necessário).
+-->
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+<script src="assets/js/scripts.js"></script> <!-- scripts.js: scripts JS principais do site -->
 
 <!-- Carrossel Hero -->
 <div id="heroCarousel" class="carousel slide mb-5" data-bs-ride="carousel">
   <div class="carousel-inner rounded-4 shadow-lg">
-    <div class="carousel-item active" style="background: linear-gradient(90deg, #1db954 0%, #111 100%); min-height: 340px;">
-      <div class="container py-5 text-white d-flex flex-column justify-content-center align-items-center" style="min-height: 340px;">
+    <div class="carousel-item active hero-slide">
+      <div class="container py-5 text-white d-flex flex-column justify-content-center align-items-center hero-slide-content">
         <h1 class="display-4 fw-bold mb-3 animate__animated animate__fadeInDown">Bem-vindo ao <span style="color:#fff;">Clube<span style="color:#1db954;">Mix</span></span>!</h1>
         <p class="lead mb-4 animate__animated animate__fadeInUp">Bonificação, facilidade e segurança para você e sua empresa.</p>
       </div>
     </div>
-    <div class="carousel-item" style="background: linear-gradient(90deg, #111 0%, #1db954 100%); min-height: 340px;">
-      <div class="container py-5 text-white d-flex flex-column justify-content-center align-items-center" style="min-height: 340px;">
+    <div class="carousel-item hero-slide hero-slide-alt">
+      <div class="container py-5 text-white d-flex flex-column justify-content-center align-items-center hero-slide-content">
         <h2 class="fw-bold mb-3 animate__animated animate__fadeInDown">Ganhe bonificação em cada compra!</h2>
         <p class="lead animate__animated animate__fadeInUp">Indique amigos, consuma em parceiros e aumente seus ganhos.</p>
       </div>
     </div>
-    <div class="carousel-item" style="background: linear-gradient(90deg, #1db954 0%, #222 100%); min-height: 340px;">
-      <div class="container py-5 text-white d-flex flex-column justify-content-center align-items-center" style="min-height: 340px;">
+    <div class="carousel-item hero-slide hero-slide-dark">
+      <div class="container py-5 text-white d-flex flex-column justify-content-center align-items-center hero-slide-content">
         <h2 class="fw-bold mb-3 animate__animated animate__fadeInDown">Empresas parceiras crescem mais!</h2>
         <p class="lead animate__animated animate__fadeInUp">Fidelize clientes e aumente seu faturamento com o ClubeMix.</p>
       </div>
@@ -252,57 +260,6 @@
 <a href="https://wa.me/5599999999999" target="_blank" class="whatsapp-float" aria-label="Fale conosco pelo WhatsApp">
   <i class="bi bi-whatsapp"></i>
 </a>
-<style>
-.cta-animate {
-  transition: transform 0.2s, box-shadow 0.2s, background 0.2s;
-}
-.cta-animate:hover {
-  transform: scale(1.07);
-  box-shadow: 0 4px 24px #1db95455;
-  background: #1db954 !important;
-  color: #fff !important;
-}
-.step-card {
-  border-radius: 16px;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
-  transition: transform 0.2s, box-shadow 0.2s;
-  cursor: pointer;
-}
-.step-card:hover {
-  transform: translateY(-6px) scale(1.04);
-  box-shadow: 0 8px 32px #1db95433;
-  border: 1.5px solid #1db95433;
-}
-.step-icon {
-  transition: color 0.2s, transform 0.2s;
-}
-.step-card:hover .step-icon {
-  color: #1db954 !important;
-  transform: scale(1.15);
-}
-.whatsapp-float {
-  position: fixed;
-  left: 24px;
-  bottom: 24px;
-  z-index: 9999;
-  background: #25d366;
-  color: #fff;
-  border-radius: 50%;
-  width: 56px;
-  height: 56px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 2rem;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
-  transition: background 0.2s;
-}
-.whatsapp-float:hover {
-  background: #128c7e;
-  color: #fff;
-  text-decoration: none;
-}
-</style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
 <?php include 'includes/footer.php'; ?> 
