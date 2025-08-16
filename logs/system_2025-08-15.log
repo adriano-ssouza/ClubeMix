@@ -1,0 +1,67 @@
+[2025-08-15 14:02:56] [INFO] Sistema inicializado | Context: {"environment":"development","version":"1.0.0","user_ip":"::1"}
+[2025-08-15 14:03:12] [INFO] Sistema inicializado | Context: {"environment":"development","version":"1.0.0","user_ip":"::1"}
+[2025-08-15 14:03:38] [INFO] Sistema inicializado | Context: {"environment":"development","version":"1.0.0","user_ip":"::1"}
+[2025-08-15 14:04:18] [INFO] Sistema inicializado | Context: {"environment":"development","version":"1.0.0","user_ip":"::1"}
+[2025-08-15 14:08:57] [INFO] Sistema inicializado | Context: {"environment":"development","version":"1.0.0","user_ip":"unknown"}
+[2025-08-15 14:09:04] [INFO] Sistema inicializado | Context: {"environment":"development","version":"1.0.0","user_ip":"unknown"}
+[2025-08-15 14:11:50] [INFO] Sistema inicializado | Context: {"environment":"development","version":"1.0.0","user_ip":"unknown"}
+[2025-08-15 14:12:29] [INFO] Sistema inicializado | Context: {"environment":"development","version":"1.0.0","user_ip":"unknown"}
+[2025-08-15 14:12:47] [INFO] Sistema inicializado | Context: {"environment":"development","version":"1.0.0","user_ip":"unknown"}
+[2025-08-15 14:12:58] [INFO] Sistema inicializado | Context: {"environment":"development","version":"1.0.0","user_ip":"::1"}
+[2025-08-15 14:14:34] [INFO] Sistema inicializado | Context: {"environment":"development","version":"1.0.0","user_ip":"unknown"}
+[2025-08-15 14:15:30] [INFO] Sistema inicializado | Context: {"environment":"development","version":"1.0.0","user_ip":"::1"}
+[2025-08-15 14:15:38] [INFO] Sistema inicializado | Context: {"environment":"development","version":"1.0.0","user_ip":"::1"}
+[2025-08-15 14:15:39] [INFO] Sistema inicializado | Context: {"environment":"development","version":"1.0.0","user_ip":"::1"}
+[2025-08-15 14:15:40] [INFO] Sistema inicializado | Context: {"environment":"development","version":"1.0.0","user_ip":"::1"}
+[2025-08-15 14:18:15] [INFO] Sistema inicializado | Context: {"environment":"development","version":"1.0.0","user_ip":"unknown"}
+[2025-08-15 14:18:28] [INFO] Sistema inicializado | Context: {"environment":"development","version":"1.0.0","user_ip":"::1"}
+[2025-08-15 14:34:09] [INFO] Sistema inicializado | Context: {"environment":"development","version":"1.0.0","user_ip":"::1"}
+[2025-08-15 14:34:09] [ERROR] API Error: Método não permitido | Context: {"code":405,"errors":null,"method":"GET","request":[]}
+[2025-08-15 14:39:20] [INFO] Sistema inicializado | Context: {"environment":"development","version":"1.0.0","user_ip":"::1"}
+[2025-08-15 14:39:20] [ERROR] API Error: Dados inválidos | Context: {"code":400,"errors":{"senha":"Campo senha \u00e9 obrigat\u00f3rio"},"method":"POST","request":{"nome_completo":"Adriano da Silva Souza","cpf":"309.725.958-99","email":"adriano.ssouza@gmail.com","whatsapp":"(11) 98451-2298","data_nascimento":"1989-10-17","cep":"01032-001","rua":"Rua Brigadeiro Tobias","numero":"613","complemento":"Apto 13","bairro":"Centro","cidade":"S\u00e3o Paulo","estado":"SP","codigo_indicacao":"01032-001","senha":null}}
+[2025-08-15 14:40:56] [INFO] Sistema inicializado | Context: {"environment":"development","version":"1.0.0","user_ip":"::1"}
+[2025-08-15 14:40:56] [ERROR] API Error: Método não permitido | Context: {"code":405,"errors":null,"method":"GET","request":[]}
+[2025-08-15 14:45:03] [INFO] Sistema inicializado | Context: {"environment":"development","version":"1.0.0","user_ip":"unknown"}
+[2025-08-15 14:47:51] [INFO] Sistema inicializado | Context: {"environment":"development","version":"1.0.0","user_ip":"::1"}
+[2025-08-15 14:55:27] [INFO] Sistema inicializado | Context: {"environment":"development","version":"1.0.0","user_ip":"::1"}
+[2025-08-15 14:55:27] [ERROR] API Error: Dados inválidos | Context: {"code":400,"errors":{"cnpj":"CNPJ inv\u00e1lido"},"method":"POST","request":{"razao_social":"Nome da Empresa","nome_fantasia":"Nome da Empresa Fantasia","cnpj":"30.934.030\/4303-03","inscricao_estadual":"30303030303030303030","email":"adriano.ssouza@gmail.com","telefone":"(11) 9845-1229","cep":"01032-001","rua":"Rua Brigadeiro Tobias","numero":"613","complemento":"apto 13","bairro":"Centro","cidade":"S\u00e3o Paulo","estado":"SP","segmento":"restaurante","senha":"Teste@1234"}}
+[2025-08-15 14:59:09] [INFO] Sistema inicializado | Context: {"environment":"development","version":"1.0.0","user_ip":"::1"}
+[2025-08-15 14:59:09] [ERROR] API Error: Email já cadastrado no sistema | Context: {"code":400,"errors":{"email":"Este email j\u00e1 est\u00e1 em uso"},"method":"POST","request":{"razao_social":"Nome da Empresa","nome_fantasia":"Nome da Empresa Fantasia","cnpj":"75.250.544\/0001-00","inscricao_estadual":"30303030303030303030","email":"adriano.ssouza@gmail.com","telefone":"(11) 9845-1229","cep":"01032-001","rua":"Rua Brigadeiro Tobias","numero":"613","complemento":"apto 13","bairro":"Centro","cidade":"S\u00e3o Paulo","estado":"SP","segmento":"restaurante","senha":"Teste@1234"}}
+[2025-08-15 14:59:42] [INFO] Sistema inicializado | Context: {"environment":"development","version":"1.0.0","user_ip":"::1"}
+[2025-08-15 15:11:06] [INFO] Sistema inicializado | Context: {"environment":"development","version":"1.0.0","user_ip":"unknown"}
+[2025-08-15 15:11:32] [INFO] Sistema inicializado | Context: {"environment":"development","version":"1.0.0","user_ip":"unknown"}
+[2025-08-15 15:11:39] [INFO] Sistema inicializado | Context: {"environment":"development","version":"1.0.0","user_ip":"unknown"}
+[2025-08-15 15:35:16] [INFO] Sistema inicializado | Context: {"environment":"development","version":"1.0.0","user_ip":"::1"}
+[2025-08-15 15:35:16] [ERROR] API Error: Método não permitido | Context: {"code":405,"errors":null,"method":"GET","request":[]}
+[2025-08-15 15:36:07] [INFO] Sistema inicializado | Context: {"environment":"development","version":"1.0.0","user_ip":"::1"}
+[2025-08-15 15:36:07] [ERROR] Erro ao fazer login: Erro ao executar consulta | Context: {"data":{"email":"adriano.ssouza@gmail.com","senha":"Teste@1234","lembrar":""},"trace":"#0 C:\\xampp\\htdocs\\ClubeMix\\api\\auth\\login.php(180): Database->query('SELECT id, uuid...', Array)\n#1 C:\\xampp\\htdocs\\ClubeMix\\api\\auth\\login.php(67): AuthLoginApi->buscarUsuarioPorEmail('adriano.ssouza@...')\n#2 C:\\xampp\\htdocs\\ClubeMix\\api\\auth\\login.php(27): AuthLoginApi->fazerLogin()\n#3 C:\\xampp\\htdocs\\ClubeMix\\api\\auth\\login.php(295): AuthLoginApi->processRequest()\n#4 {main}"}
+[2025-08-15 15:36:07] [ERROR] API Error: Erro interno do servidor. Tente novamente em alguns minutos. | Context: {"code":500,"errors":null,"method":"POST","request":{"email":"adriano.ssouza@gmail.com","senha":"Teste@1234","lembrar":false}}
+[2025-08-15 21:09:05] [INFO] Sistema inicializado | Context: {"environment":"development","version":"1.0.0","user_ip":"::1"}
+[2025-08-15 21:09:05] [ERROR] Erro ao fazer login: Erro ao executar consulta | Context: {"data":{"email":"adriano.ssouza@gmail.com","senha":"Teste@1234","lembrar":""},"trace":"#0 C:\\xampp\\htdocs\\ClubeMix\\api\\auth\\login.php(183): Database->query('SELECT id, uuid...', Array)\n#1 C:\\xampp\\htdocs\\ClubeMix\\api\\auth\\login.php(67): AuthLoginApi->buscarUsuarioPorEmail('adriano.ssouza@...')\n#2 C:\\xampp\\htdocs\\ClubeMix\\api\\auth\\login.php(27): AuthLoginApi->fazerLogin()\n#3 C:\\xampp\\htdocs\\ClubeMix\\api\\auth\\login.php(348): AuthLoginApi->processRequest()\n#4 {main}"}
+[2025-08-15 21:09:05] [ERROR] API Error: Erro interno do servidor. Tente novamente em alguns minutos. | Context: {"code":500,"errors":null,"method":"POST","request":{"email":"adriano.ssouza@gmail.com","senha":"Teste@1234","lembrar":false}}
+[2025-08-15 21:12:51] [INFO] Sistema inicializado | Context: {"environment":"development","version":"1.0.0","user_ip":"::1"}
+[2025-08-15 21:12:51] [ERROR] API Error: Método não permitido | Context: {"code":405,"errors":null,"method":"GET","request":[]}
+[2025-08-15 21:12:58] [INFO] Sistema inicializado | Context: {"environment":"development","version":"1.0.0","user_ip":"::1"}
+[2025-08-15 21:12:58] [ERROR] Erro ao fazer login: Erro ao executar consulta | Context: {"data":{"email":"adriano.ssouza@gmail.com","senha":"Teste@1234","lembrar":""},"trace":"#0 C:\\xampp\\htdocs\\ClubeMix\\api\\auth\\login.php(183): Database->query('SELECT id, uuid...', Array)\n#1 C:\\xampp\\htdocs\\ClubeMix\\api\\auth\\login.php(67): AuthLoginApi->buscarUsuarioPorEmail('adriano.ssouza@...')\n#2 C:\\xampp\\htdocs\\ClubeMix\\api\\auth\\login.php(27): AuthLoginApi->fazerLogin()\n#3 C:\\xampp\\htdocs\\ClubeMix\\api\\auth\\login.php(348): AuthLoginApi->processRequest()\n#4 {main}"}
+[2025-08-15 21:12:58] [ERROR] API Error: Erro interno do servidor. Tente novamente em alguns minutos. | Context: {"code":500,"errors":null,"method":"POST","request":{"email":"adriano.ssouza@gmail.com","senha":"Teste@1234","lembrar":false}}
+[2025-08-15 21:19:45] [INFO] Sistema inicializado | Context: {"environment":"development","version":"1.0.0","user_ip":"unknown"}
+[2025-08-15 21:19:45] [ERROR] API Error: Método não permitido | Context: {"code":405,"errors":null,"method":"GET","request":[]}
+[2025-08-15 21:20:40] [INFO] Sistema inicializado | Context: {"environment":"development","version":"1.0.0","user_ip":"::1"}
+[2025-08-15 21:21:34] [INFO] Sistema inicializado | Context: {"environment":"development","version":"1.0.0","user_ip":"::1"}
+[2025-08-15 21:39:59] [INFO] Sistema inicializado | Context: {"environment":"development","version":"1.0.0","user_ip":"::1"}
+[2025-08-15 21:40:06] [INFO] Sistema inicializado | Context: {"environment":"development","version":"1.0.0","user_ip":"::1"}
+[2025-08-15 21:40:15] [INFO] Sistema inicializado | Context: {"environment":"development","version":"1.0.0","user_ip":"::1"}
+[2025-08-15 22:01:51] [INFO] Sistema inicializado | Context: {"environment":"development","version":"1.0.0","user_ip":"::1"}
+[2025-08-15 22:01:54] [INFO] Sistema inicializado | Context: {"environment":"development","version":"1.0.0","user_ip":"::1"}
+[2025-08-15 22:02:06] [INFO] Sistema inicializado | Context: {"environment":"development","version":"1.0.0","user_ip":"::1"}
+[2025-08-15 22:02:40] [INFO] Sistema inicializado | Context: {"environment":"development","version":"1.0.0","user_ip":"::1"}
+[2025-08-15 22:03:10] [INFO] Sistema inicializado | Context: {"environment":"development","version":"1.0.0","user_ip":"::1"}
+[2025-08-15 22:03:10] [ERROR] API Error: Método não permitido | Context: {"code":405,"errors":null,"method":"GET","request":[]}
+[2025-08-15 22:03:11] [INFO] Sistema inicializado | Context: {"environment":"development","version":"1.0.0","user_ip":"::1"}
+[2025-08-15 22:03:11] [ERROR] API Error: Dados inválidos | Context: {"code":400,"errors":{"nome_completo":"Campo nome_completo \u00e9 obrigat\u00f3rio","cpf":"Campo cpf \u00e9 obrigat\u00f3rio","email":"Campo email \u00e9 obrigat\u00f3rio","whatsapp":"Campo whatsapp \u00e9 obrigat\u00f3rio","data_nascimento":"Campo data_nascimento \u00e9 obrigat\u00f3rio","cep":"Campo cep \u00e9 obrigat\u00f3rio","rua":"Campo rua \u00e9 obrigat\u00f3rio","numero":"Campo numero \u00e9 obrigat\u00f3rio","bairro":"Campo bairro \u00e9 obrigat\u00f3rio","cidade":"Campo cidade \u00e9 obrigat\u00f3rio","estado":"Campo estado \u00e9 obrigat\u00f3rio","senha":"Campo senha \u00e9 obrigat\u00f3rio"},"method":"POST","request":{"test":"data"}}
+[2025-08-15 22:04:24] [INFO] Sistema inicializado | Context: {"environment":"development","version":"1.0.0","user_ip":"::1"}
+[2025-08-15 22:12:05] [INFO] Sistema inicializado | Context: {"environment":"development","version":"1.0.0","user_ip":"::1"}
+[2025-08-15 22:12:05] [ERROR] API Error: Método não permitido | Context: {"code":405,"errors":null,"method":"GET","request":[]}
+[2025-08-15 22:12:06] [INFO] Sistema inicializado | Context: {"environment":"development","version":"1.0.0","user_ip":"::1"}
+[2025-08-15 22:12:06] [ERROR] API Error: Dados inválidos | Context: {"code":400,"errors":{"nome_completo":"Campo nome_completo \u00e9 obrigat\u00f3rio","cpf":"Campo cpf \u00e9 obrigat\u00f3rio","email":"Campo email \u00e9 obrigat\u00f3rio","whatsapp":"Campo whatsapp \u00e9 obrigat\u00f3rio","data_nascimento":"Campo data_nascimento \u00e9 obrigat\u00f3rio","cep":"Campo cep \u00e9 obrigat\u00f3rio","rua":"Campo rua \u00e9 obrigat\u00f3rio","numero":"Campo numero \u00e9 obrigat\u00f3rio","bairro":"Campo bairro \u00e9 obrigat\u00f3rio","cidade":"Campo cidade \u00e9 obrigat\u00f3rio","estado":"Campo estado \u00e9 obrigat\u00f3rio","senha":"Campo senha \u00e9 obrigat\u00f3rio"},"method":"POST","request":{"test":"data"}}
+[2025-08-15 22:12:51] [INFO] Sistema inicializado | Context: {"environment":"development","version":"1.0.0","user_ip":"::1"}

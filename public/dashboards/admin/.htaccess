@@ -1,0 +1,27 @@
+# ClubeMix - Dashboard Admin
+# Configurações específicas para o dashboard de administradores
+
+# Permitir acesso apenas a arquivos PHP
+<FilesMatch "\.(php|css|js|png|jpg|jpeg|gif|ico|svg)$">
+    Order Allow,Deny
+    Allow from all
+</FilesMatch>
+
+# Bloquear acesso a arquivos sensíveis
+<FilesMatch "\.(htaccess|htpasswd|ini|log|sh|sql|bak)$">
+    Order Deny,Allow
+    Deny from all
+</FilesMatch>
+
+# Configurar página padrão
+DirectoryIndex index.php
+
+# Proteger contra listagem de diretório
+Options -Indexes
+
+# Headers de segurança
+<IfModule mod_headers.c>
+    Header always set X-Content-Type-Options nosniff
+    Header always set X-Frame-Options DENY
+    Header always set X-XSS-Protection "1; mode=block"
+</IfModule>

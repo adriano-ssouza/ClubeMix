@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste API ClubeMix</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <h1>Teste API ClubeMix</h1>
+    <div id="results"></div>
+    
+    <script>
+        function testApi(url, description) {
+            console.log(`Testando: ${description} - ${url}`);
+            
+            $.ajax({
+                url: url,
+                method: 'GET',
+                timeout: 10000
+            }).done(function(response, textStatus, xhr) {
+                console.log(`✅ ${description} - Sucesso:`, response);
+                $('#results').append(`<p style="color: green;">✅ ${description}: ${JSON.stringify(response)}</p>`);
+            }).fail(function(xhr, textStatus, errorThrown) {
+                console.error(`❌ ${description} - Erro:`, {
+                    status: xhr.status,
+                    statusText: xhr.statusText,
+                    textStatus: textStatus,
+                    errorThrown: errorThrown,
+                    responseText: xhr.responseText
+                });
+                $('#results').append(`<p style="color: red;">❌ ${description}: Status ${xhr.status} - ${xhr.statusText}</p>`);
+            });
+        }
+        
+        $(document).ready(function() {
+            console.log('Iniciando testes da API...');
+            
+            // Teste 1: API de teste simples
+            testApi('api/test.php', 'API Test Endpoint');
+            
+            // Teste 2: API de cliente (deve dar erro 405 para GET)
+            setTimeout(() => {
+                testApi('api/cliente/cadastro.php', 'API Cliente (GET - deve dar 405)');
+            }, 1000);
+            
+            // Teste 3: Teste POST na API de cliente
+            setTimeout(() => {
+                $.ajax({
+                    url: 'api/cliente/cadastro.php',
+                    method: 'POST',
+                    data: JSON.stringify({ test: 'data' }),
+                    contentType: 'application/json',
+                    timeout: 10000
+                }).done(function(response) {
+                    console.log('✅ API Cliente POST - Sucesso:', response);
+                    $('#results').append(`<p style="color: green;">✅ API Cliente POST: ${JSON.stringify(response)}</p>`);
+                }).fail(function(xhr) {
+                    console.log('📝 API Cliente POST - Resposta:', {
+                        status: xhr.status,
+                        responseText: xhr.responseText,
+                        responseJSON: xhr.responseJSON
+                    });
+                    $('#results').append(`<p style="color: orange;">📝 API Cliente POST: Status ${xhr.status} - ${xhr.responseJSON ? JSON.stringify(xhr.responseJSON) : xhr.responseText}</p>`);
+                });
+            }, 2000);
+        });
+    </script>
+</body>
+</html>

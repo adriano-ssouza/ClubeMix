@@ -1,0 +1,3212 @@
+
+================================================================================
+🚀 CLUBEMIX DEBUG SESSION INICIADA - 2025-08-15 14:12:29
+================================================================================
+📍 IP: unknown
+🌐 User Agent: unknown
+📄 Request URI: unknown
+🔧 Request Method: unknown
+================================================================================
+
+[2025-08-15 14:12:29.166] 🔵 [INFO] TestClass::testMethod()
+    📝 Message: Test info message
+    📊 Data: {
+    "key": "value"
+}
+    🌐 Request: unknown unknown
+
+[2025-08-15 14:12:29.210] 🟢 [SUCCESS] TestClass::testMethod()
+    📝 Message: Test success message
+    🌐 Request: unknown unknown
+
+[2025-08-15 14:12:29.249] 🔴 [ERROR] TestClass::testMethod()
+    📝 Message: Test error message
+    📊 Data: {
+    "error": "details"
+}
+    🌐 Request: unknown unknown
+    📍 Stack Trace:
+        #1 LoggerTest.php:102 - Logger::error()
+        #2 TestRunner.php:70 - LoggerTest::testErrorLog()
+        #3 TestRunner.php:54 - TestCase::runTest()
+        #4 TestRunner.php:290 - TestCase::runTests()
+
+[2025-08-15 14:12:29.290] 🐛 [DEBUG] TestClass::testMethod()
+    📝 Message: Test debug message
+    🌐 Request: unknown unknown
+    📍 Stack Trace:
+        #1 LoggerTest.php:115 - Logger::debug()
+        #2 TestRunner.php:70 - LoggerTest::testDebugLog()
+        #3 TestRunner.php:54 - TestCase::runTest()
+        #4 TestRunner.php:290 - TestCase::runTests()
+
+[2025-08-15 14:12:29.320] 📡 [API] ApiClass::processRequest()
+    📝 Message: API request processed
+    📊 Data: {
+    "method": "POST"
+}
+    🌐 Request: unknown unknown
+
+[2025-08-15 14:12:29.368] ✅ [VALIDATION] ValidatorClass::validate()
+    📝 Message: Validation passed
+    🌐 Request: unknown unknown
+
+[2025-08-15 14:12:29.438] 🔒 [SECURITY] SecurityClass::checkAuth()
+    📝 Message: Authentication check
+    📊 Data: {
+    "user_id": 123
+}
+    🌐 Request: unknown unknown
+
+[2025-08-15 14:12:29.476] 🔵 [INFO] TestClass::testMethod()
+    📝 Message: Test helper info
+    🌐 Request: unknown unknown
+
+[2025-08-15 14:12:29.477] 🟢 [SUCCESS] TestClass::testMethod()
+    📝 Message: Test helper success
+    🌐 Request: unknown unknown
+
+[2025-08-15 14:12:29.478] 🔴 [ERROR] TestClass::testMethod()
+    📝 Message: Test helper error
+    🌐 Request: unknown unknown
+    📍 Stack Trace:
+        #1 Logger.php:343 - Logger::error()
+        #2 LoggerTest.php:165 - logError()
+        #3 TestRunner.php:70 - LoggerTest::testGlobalHelperFunctions()
+        #4 TestRunner.php:54 - TestCase::runTest()
+
+[2025-08-15 14:12:29.478] 🐛 [DEBUG] TestClass::testMethod()
+    📝 Message: Test helper debug
+    🌐 Request: unknown unknown
+    📍 Stack Trace:
+        #1 Logger.php:348 - Logger::debug()
+        #2 LoggerTest.php:166 - logDebug()
+        #3 TestRunner.php:70 - LoggerTest::testGlobalHelperFunctions()
+        #4 TestRunner.php:54 - TestCase::runTest()
+
+[2025-08-15 14:12:29.509] 🔵 [INFO] TestClass::testComplexData()
+    📝 Message: Complex data test
+    📊 Data: {
+    "user": {
+        "id": 123,
+        "name": "Test User",
+        "roles": [
+            "admin",
+            "user"
+        ]
+    },
+    "request": {
+        "method": "POST",
+        "url": "\/api\/test"
+    }
+}
+    🌐 Request: unknown unknown
+
+[2025-08-15 14:12:29.538] 🔵 [INFO] TestClass::testTimestamp()
+    📝 Message: Timestamp test
+    🌐 Request: unknown unknown
+
+[2025-08-15 14:12:29.569] 🔵 [INFO] TestClass::testRequestInfo()
+    📝 Message: Request info test
+    🌐 Request: POST /test/uri
+
+[2025-08-15 14:12:29.635] 🔵 [INFO] TestClass::testDisabled()
+    📝 Message: This should not be logged
+    🌐 Request: POST /test/uri
+
+[2025-08-15 14:12:29.635] 🔴 [ERROR] TestClass::testDisabled()
+    📝 Message: This error should be logged
+    🌐 Request: POST /test/uri
+    📍 Stack Trace:
+        #1 LoggerTest.php:275 - Logger::error()
+        #2 TestRunner.php:70 - LoggerTest::testLogWhenDebugDisabled()
+        #3 TestRunner.php:54 - TestCase::runTest()
+        #4 TestRunner.php:290 - TestCase::runTests()
+
+
+================================================================================
+🚀 CLUBEMIX DEBUG SESSION INICIADA - 2025-08-15 14:12:48
+================================================================================
+📍 IP: unknown
+🌐 User Agent: unknown
+📄 Request URI: unknown
+🔧 Request Method: unknown
+================================================================================
+
+[2025-08-15 14:12:48.094] 🔵 [INFO] TestClass::testMethod()
+    📝 Message: Test info message
+    📊 Data: {
+    "key": "value"
+}
+    🌐 Request: unknown unknown
+
+[2025-08-15 14:12:48.114] 🟢 [SUCCESS] TestClass::testMethod()
+    📝 Message: Test success message
+    🌐 Request: unknown unknown
+
+[2025-08-15 14:12:48.134] 🔴 [ERROR] TestClass::testMethod()
+    📝 Message: Test error message
+    📊 Data: {
+    "error": "details"
+}
+    🌐 Request: unknown unknown
+    📍 Stack Trace:
+        #1 LoggerTest.php:102 - Logger::error()
+        #2 TestRunner.php:70 - LoggerTest::testErrorLog()
+        #3 TestRunner.php:54 - TestCase::runTest()
+        #4 TestRunner.php:301 - TestCase::runTests()
+
+[2025-08-15 14:12:48.157] 🐛 [DEBUG] TestClass::testMethod()
+    📝 Message: Test debug message
+    🌐 Request: unknown unknown
+    📍 Stack Trace:
+        #1 LoggerTest.php:115 - Logger::debug()
+        #2 TestRunner.php:70 - LoggerTest::testDebugLog()
+        #3 TestRunner.php:54 - TestCase::runTest()
+        #4 TestRunner.php:301 - TestCase::runTests()
+
+[2025-08-15 14:12:48.182] 📡 [API] ApiClass::processRequest()
+    📝 Message: API request processed
+    📊 Data: {
+    "method": "POST"
+}
+    🌐 Request: unknown unknown
+
+[2025-08-15 14:12:48.204] ✅ [VALIDATION] ValidatorClass::validate()
+    📝 Message: Validation passed
+    🌐 Request: unknown unknown
+
+[2025-08-15 14:12:48.238] 🔒 [SECURITY] SecurityClass::checkAuth()
+    📝 Message: Authentication check
+    📊 Data: {
+    "user_id": 123
+}
+    🌐 Request: unknown unknown
+
+[2025-08-15 14:12:48.268] 🔵 [INFO] TestClass::testMethod()
+    📝 Message: Test helper info
+    🌐 Request: unknown unknown
+
+[2025-08-15 14:12:48.269] 🟢 [SUCCESS] TestClass::testMethod()
+    📝 Message: Test helper success
+    🌐 Request: unknown unknown
+
+[2025-08-15 14:12:48.269] 🔴 [ERROR] TestClass::testMethod()
+    📝 Message: Test helper error
+    🌐 Request: unknown unknown
+    📍 Stack Trace:
+        #1 Logger.php:343 - Logger::error()
+        #2 LoggerTest.php:165 - logError()
+        #3 TestRunner.php:70 - LoggerTest::testGlobalHelperFunctions()
+        #4 TestRunner.php:54 - TestCase::runTest()
+
+[2025-08-15 14:12:48.270] 🐛 [DEBUG] TestClass::testMethod()
+    📝 Message: Test helper debug
+    🌐 Request: unknown unknown
+    📍 Stack Trace:
+        #1 Logger.php:348 - Logger::debug()
+        #2 LoggerTest.php:166 - logDebug()
+        #3 TestRunner.php:70 - LoggerTest::testGlobalHelperFunctions()
+        #4 TestRunner.php:54 - TestCase::runTest()
+
+[2025-08-15 14:12:48.303] 🔵 [INFO] TestClass::testComplexData()
+    📝 Message: Complex data test
+    📊 Data: {
+    "user": {
+        "id": 123,
+        "name": "Test User",
+        "roles": [
+            "admin",
+            "user"
+        ]
+    },
+    "request": {
+        "method": "POST",
+        "url": "\/api\/test"
+    }
+}
+    🌐 Request: unknown unknown
+
+[2025-08-15 14:12:48.331] 🔵 [INFO] TestClass::testTimestamp()
+    📝 Message: Timestamp test
+    🌐 Request: unknown unknown
+
+[2025-08-15 14:12:48.363] 🔵 [INFO] TestClass::testRequestInfo()
+    📝 Message: Request info test
+    🌐 Request: POST /test/uri
+
+[2025-08-15 14:12:48.400] 🔵 [INFO] TestClass::testDisabled()
+    📝 Message: This should not be logged
+    🌐 Request: POST /test/uri
+
+[2025-08-15 14:12:48.401] 🔴 [ERROR] TestClass::testDisabled()
+    📝 Message: This error should be logged
+    🌐 Request: POST /test/uri
+    📍 Stack Trace:
+        #1 LoggerTest.php:275 - Logger::error()
+        #2 TestRunner.php:70 - LoggerTest::testLogWhenDebugDisabled()
+        #3 TestRunner.php:54 - TestCase::runTest()
+        #4 TestRunner.php:301 - TestCase::runTests()
+
+
+================================================================================
+🚀 CLUBEMIX DEBUG SESSION INICIADA - 2025-08-15 14:12:58
+================================================================================
+📍 IP: ::1
+🌐 User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+📄 Request URI: /ClubeMix/run_tests.php
+🔧 Request Method: GET
+================================================================================
+
+[2025-08-15 14:12:58.922] 🔵 [INFO] TestClass::testMethod()
+    📝 Message: Test info message
+    📊 Data: {
+    "key": "value"
+}
+    🌐 Request: GET /ClubeMix/run_tests.php
+
+[2025-08-15 14:12:58.925] 🟢 [SUCCESS] TestClass::testMethod()
+    📝 Message: Test success message
+    🌐 Request: GET /ClubeMix/run_tests.php
+
+[2025-08-15 14:12:58.927] 🔴 [ERROR] TestClass::testMethod()
+    📝 Message: Test error message
+    📊 Data: {
+    "error": "details"
+}
+    🌐 Request: GET /ClubeMix/run_tests.php
+    📍 Stack Trace:
+        #1 LoggerTest.php:102 - Logger::error()
+        #2 TestRunner.php:70 - LoggerTest::testErrorLog()
+        #3 TestRunner.php:54 - TestCase::runTest()
+        #4 TestRunner.php:301 - TestCase::runTests()
+
+[2025-08-15 14:12:58.943] 🐛 [DEBUG] TestClass::testMethod()
+    📝 Message: Test debug message
+    🌐 Request: GET /ClubeMix/run_tests.php
+    📍 Stack Trace:
+        #1 LoggerTest.php:115 - Logger::debug()
+        #2 TestRunner.php:70 - LoggerTest::testDebugLog()
+        #3 TestRunner.php:54 - TestCase::runTest()
+        #4 TestRunner.php:301 - TestCase::runTests()
+
+[2025-08-15 14:12:58.947] 📡 [API] ApiClass::processRequest()
+    📝 Message: API request processed
+    📊 Data: {
+    "method": "POST"
+}
+    🌐 Request: GET /ClubeMix/run_tests.php
+
+[2025-08-15 14:12:58.950] ✅ [VALIDATION] ValidatorClass::validate()
+    📝 Message: Validation passed
+    🌐 Request: GET /ClubeMix/run_tests.php
+
+[2025-08-15 14:12:58.952] 🔒 [SECURITY] SecurityClass::checkAuth()
+    📝 Message: Authentication check
+    📊 Data: {
+    "user_id": 123
+}
+    🌐 Request: GET /ClubeMix/run_tests.php
+
+[2025-08-15 14:12:58.955] 🔵 [INFO] TestClass::testMethod()
+    📝 Message: Test helper info
+    🌐 Request: GET /ClubeMix/run_tests.php
+
+[2025-08-15 14:12:58.956] 🟢 [SUCCESS] TestClass::testMethod()
+    📝 Message: Test helper success
+    🌐 Request: GET /ClubeMix/run_tests.php
+
+[2025-08-15 14:12:58.956] 🔴 [ERROR] TestClass::testMethod()
+    📝 Message: Test helper error
+    🌐 Request: GET /ClubeMix/run_tests.php
+    📍 Stack Trace:
+        #1 Logger.php:343 - Logger::error()
+        #2 LoggerTest.php:165 - logError()
+        #3 TestRunner.php:70 - LoggerTest::testGlobalHelperFunctions()
+        #4 TestRunner.php:54 - TestCase::runTest()
+
+[2025-08-15 14:12:58.957] 🐛 [DEBUG] TestClass::testMethod()
+    📝 Message: Test helper debug
+    🌐 Request: GET /ClubeMix/run_tests.php
+    📍 Stack Trace:
+        #1 Logger.php:348 - Logger::debug()
+        #2 LoggerTest.php:166 - logDebug()
+        #3 TestRunner.php:70 - LoggerTest::testGlobalHelperFunctions()
+        #4 TestRunner.php:54 - TestCase::runTest()
+
+[2025-08-15 14:12:58.960] 🔵 [INFO] TestClass::testComplexData()
+    📝 Message: Complex data test
+    📊 Data: {
+    "user": {
+        "id": 123,
+        "name": "Test User",
+        "roles": [
+            "admin",
+            "user"
+        ]
+    },
+    "request": {
+        "method": "POST",
+        "url": "\/api\/test"
+    }
+}
+    🌐 Request: GET /ClubeMix/run_tests.php
+
+[2025-08-15 14:12:58.964] 🔵 [INFO] TestClass::testTimestamp()
+    📝 Message: Timestamp test
+    🌐 Request: GET /ClubeMix/run_tests.php
+
+[2025-08-15 14:12:58.968] 🔵 [INFO] TestClass::testRequestInfo()
+    📝 Message: Request info test
+    🌐 Request: POST /test/uri
+
+[2025-08-15 14:12:58.975] 🔵 [INFO] TestClass::testDisabled()
+    📝 Message: This should not be logged
+    🌐 Request: POST /test/uri
+
+[2025-08-15 14:12:58.976] 🔴 [ERROR] TestClass::testDisabled()
+    📝 Message: This error should be logged
+    🌐 Request: POST /test/uri
+    📍 Stack Trace:
+        #1 LoggerTest.php:275 - Logger::error()
+        #2 TestRunner.php:70 - LoggerTest::testLogWhenDebugDisabled()
+        #3 TestRunner.php:54 - TestCase::runTest()
+        #4 TestRunner.php:301 - TestCase::runTests()
+
+
+================================================================================
+🚀 CLUBEMIX DEBUG SESSION INICIADA - 2025-08-15 14:14:34
+================================================================================
+📍 IP: unknown
+🌐 User Agent: unknown
+📄 Request URI: unknown
+🔧 Request Method: unknown
+================================================================================
+
+[2025-08-15 14:14:34.966] 🔵 [INFO] TestClass::testMethod()
+    📝 Message: Test info message
+    📊 Data: {
+    "key": "value"
+}
+    🌐 Request: unknown unknown
+
+[2025-08-15 14:14:34.989] 🟢 [SUCCESS] TestClass::testMethod()
+    📝 Message: Test success message
+    🌐 Request: unknown unknown
+
+[2025-08-15 14:14:35.034] 🔴 [ERROR] TestClass::testMethod()
+    📝 Message: Test error message
+    📊 Data: {
+    "error": "details"
+}
+    🌐 Request: unknown unknown
+    📍 Stack Trace:
+        #1 LoggerTest.php:102 - Logger::error()
+        #2 TestRunner.php:70 - LoggerTest::testErrorLog()
+        #3 TestRunner.php:54 - TestCase::runTest()
+        #4 TestRunner.php:301 - TestCase::runTests()
+
+[2025-08-15 14:14:35.159] 🐛 [DEBUG] TestClass::testMethod()
+    📝 Message: Test debug message
+    🌐 Request: unknown unknown
+    📍 Stack Trace:
+        #1 LoggerTest.php:115 - Logger::debug()
+        #2 TestRunner.php:70 - LoggerTest::testDebugLog()
+        #3 TestRunner.php:54 - TestCase::runTest()
+        #4 TestRunner.php:301 - TestCase::runTests()
+
+[2025-08-15 14:14:35.275] 📡 [API] ApiClass::processRequest()
+    📝 Message: API request processed
+    📊 Data: {
+    "method": "POST"
+}
+    🌐 Request: unknown unknown
+
+[2025-08-15 14:14:35.328] ✅ [VALIDATION] ValidatorClass::validate()
+    📝 Message: Validation passed
+    🌐 Request: unknown unknown
+
+[2025-08-15 14:14:35.459] 🔒 [SECURITY] SecurityClass::checkAuth()
+    📝 Message: Authentication check
+    📊 Data: {
+    "user_id": 123
+}
+    🌐 Request: unknown unknown
+
+[2025-08-15 14:14:35.576] 🔵 [INFO] TestClass::testMethod()
+    📝 Message: Test helper info
+    🌐 Request: unknown unknown
+
+[2025-08-15 14:14:35.576] 🟢 [SUCCESS] TestClass::testMethod()
+    📝 Message: Test helper success
+    🌐 Request: unknown unknown
+
+[2025-08-15 14:14:35.576] 🔴 [ERROR] TestClass::testMethod()
+    📝 Message: Test helper error
+    🌐 Request: unknown unknown
+    📍 Stack Trace:
+        #1 Logger.php:343 - Logger::error()
+        #2 LoggerTest.php:165 - logError()
+        #3 TestRunner.php:70 - LoggerTest::testGlobalHelperFunctions()
+        #4 TestRunner.php:54 - TestCase::runTest()
+
+[2025-08-15 14:14:35.577] 🐛 [DEBUG] TestClass::testMethod()
+    📝 Message: Test helper debug
+    🌐 Request: unknown unknown
+    📍 Stack Trace:
+        #1 Logger.php:348 - Logger::debug()
+        #2 LoggerTest.php:166 - logDebug()
+        #3 TestRunner.php:70 - LoggerTest::testGlobalHelperFunctions()
+        #4 TestRunner.php:54 - TestCase::runTest()
+
+[2025-08-15 14:14:35.628] 🔵 [INFO] TestClass::testComplexData()
+    📝 Message: Complex data test
+    📊 Data: {
+    "user": {
+        "id": 123,
+        "name": "Test User",
+        "roles": [
+            "admin",
+            "user"
+        ]
+    },
+    "request": {
+        "method": "POST",
+        "url": "\/api\/test"
+    }
+}
+    🌐 Request: unknown unknown
+
+[2025-08-15 14:14:35.659] 🔵 [INFO] TestClass::testTimestamp()
+    📝 Message: Timestamp test
+    🌐 Request: unknown unknown
+
+[2025-08-15 14:14:35.795] 🔵 [INFO] TestClass::testRequestInfo()
+    📝 Message: Request info test
+    🌐 Request: POST /test/uri
+
+[2025-08-15 14:14:35.838] 🔵 [INFO] TestClass::testDisabled()
+    📝 Message: This should not be logged
+    🌐 Request: POST /test/uri
+
+[2025-08-15 14:14:35.838] 🔴 [ERROR] TestClass::testDisabled()
+    📝 Message: This error should be logged
+    🌐 Request: POST /test/uri
+    📍 Stack Trace:
+        #1 LoggerTest.php:275 - Logger::error()
+        #2 TestRunner.php:70 - LoggerTest::testLogWhenDebugDisabled()
+        #3 TestRunner.php:54 - TestCase::runTest()
+        #4 TestRunner.php:301 - TestCase::runTests()
+
+
+================================================================================
+🚀 CLUBEMIX DEBUG SESSION INICIADA - 2025-08-15 14:15:30
+================================================================================
+📍 IP: ::1
+🌐 User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+📄 Request URI: /ClubeMix/run_tests.php
+🔧 Request Method: GET
+================================================================================
+
+[2025-08-15 14:15:30.152] 🔵 [INFO] TestClass::testMethod()
+    📝 Message: Test info message
+    📊 Data: {
+    "key": "value"
+}
+    🌐 Request: GET /ClubeMix/run_tests.php
+
+[2025-08-15 14:15:30.156] 🟢 [SUCCESS] TestClass::testMethod()
+    📝 Message: Test success message
+    🌐 Request: GET /ClubeMix/run_tests.php
+
+[2025-08-15 14:15:30.159] 🔴 [ERROR] TestClass::testMethod()
+    📝 Message: Test error message
+    📊 Data: {
+    "error": "details"
+}
+    🌐 Request: GET /ClubeMix/run_tests.php
+    📍 Stack Trace:
+        #1 LoggerTest.php:102 - Logger::error()
+        #2 TestRunner.php:70 - LoggerTest::testErrorLog()
+        #3 TestRunner.php:54 - TestCase::runTest()
+        #4 TestRunner.php:301 - TestCase::runTests()
+
+[2025-08-15 14:15:30.161] 🐛 [DEBUG] TestClass::testMethod()
+    📝 Message: Test debug message
+    🌐 Request: GET /ClubeMix/run_tests.php
+    📍 Stack Trace:
+        #1 LoggerTest.php:115 - Logger::debug()
+        #2 TestRunner.php:70 - LoggerTest::testDebugLog()
+        #3 TestRunner.php:54 - TestCase::runTest()
+        #4 TestRunner.php:301 - TestCase::runTests()
+
+[2025-08-15 14:15:30.192] 📡 [API] ApiClass::processRequest()
+    📝 Message: API request processed
+    📊 Data: {
+    "method": "POST"
+}
+    🌐 Request: GET /ClubeMix/run_tests.php
+
+[2025-08-15 14:15:30.196] ✅ [VALIDATION] ValidatorClass::validate()
+    📝 Message: Validation passed
+    🌐 Request: GET /ClubeMix/run_tests.php
+
+[2025-08-15 14:15:30.209] 🔒 [SECURITY] SecurityClass::checkAuth()
+    📝 Message: Authentication check
+    📊 Data: {
+    "user_id": 123
+}
+    🌐 Request: GET /ClubeMix/run_tests.php
+
+[2025-08-15 14:15:30.212] 🔵 [INFO] TestClass::testMethod()
+    📝 Message: Test helper info
+    🌐 Request: GET /ClubeMix/run_tests.php
+
+[2025-08-15 14:15:30.216] 🟢 [SUCCESS] TestClass::testMethod()
+    📝 Message: Test helper success
+    🌐 Request: GET /ClubeMix/run_tests.php
+
+[2025-08-15 14:15:30.217] 🔴 [ERROR] TestClass::testMethod()
+    📝 Message: Test helper error
+    🌐 Request: GET /ClubeMix/run_tests.php
+    📍 Stack Trace:
+        #1 Logger.php:343 - Logger::error()
+        #2 LoggerTest.php:165 - logError()
+        #3 TestRunner.php:70 - LoggerTest::testGlobalHelperFunctions()
+        #4 TestRunner.php:54 - TestCase::runTest()
+
+[2025-08-15 14:15:30.217] 🐛 [DEBUG] TestClass::testMethod()
+    📝 Message: Test helper debug
+    🌐 Request: GET /ClubeMix/run_tests.php
+    📍 Stack Trace:
+        #1 Logger.php:348 - Logger::debug()
+        #2 LoggerTest.php:166 - logDebug()
+        #3 TestRunner.php:70 - LoggerTest::testGlobalHelperFunctions()
+        #4 TestRunner.php:54 - TestCase::runTest()
+
+[2025-08-15 14:15:30.221] 🔵 [INFO] TestClass::testComplexData()
+    📝 Message: Complex data test
+    📊 Data: {
+    "user": {
+        "id": 123,
+        "name": "Test User",
+        "roles": [
+            "admin",
+            "user"
+        ]
+    },
+    "request": {
+        "method": "POST",
+        "url": "\/api\/test"
+    }
+}
+    🌐 Request: GET /ClubeMix/run_tests.php
+
+[2025-08-15 14:15:30.224] 🔵 [INFO] TestClass::testTimestamp()
+    📝 Message: Timestamp test
+    🌐 Request: GET /ClubeMix/run_tests.php
+
+[2025-08-15 14:15:30.228] 🔵 [INFO] TestClass::testRequestInfo()
+    📝 Message: Request info test
+    🌐 Request: POST /test/uri
+
+[2025-08-15 14:15:30.240] 🔵 [INFO] TestClass::testDisabled()
+    📝 Message: This should not be logged
+    🌐 Request: POST /test/uri
+
+[2025-08-15 14:15:30.241] 🔴 [ERROR] TestClass::testDisabled()
+    📝 Message: This error should be logged
+    🌐 Request: POST /test/uri
+    📍 Stack Trace:
+        #1 LoggerTest.php:275 - Logger::error()
+        #2 TestRunner.php:70 - LoggerTest::testLogWhenDebugDisabled()
+        #3 TestRunner.php:54 - TestCase::runTest()
+        #4 TestRunner.php:301 - TestCase::runTests()
+
+
+================================================================================
+🚀 CLUBEMIX DEBUG SESSION INICIADA - 2025-08-15 14:15:38
+================================================================================
+📍 IP: ::1
+🌐 User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+📄 Request URI: /ClubeMix/run_tests.php
+🔧 Request Method: GET
+================================================================================
+
+[2025-08-15 14:15:38.420] 🔵 [INFO] TestClass::testMethod()
+    📝 Message: Test info message
+    📊 Data: {
+    "key": "value"
+}
+    🌐 Request: GET /ClubeMix/run_tests.php
+
+[2025-08-15 14:15:38.434] 🟢 [SUCCESS] TestClass::testMethod()
+    📝 Message: Test success message
+    🌐 Request: GET /ClubeMix/run_tests.php
+
+[2025-08-15 14:15:38.437] 🔴 [ERROR] TestClass::testMethod()
+    📝 Message: Test error message
+    📊 Data: {
+    "error": "details"
+}
+    🌐 Request: GET /ClubeMix/run_tests.php
+    📍 Stack Trace:
+        #1 LoggerTest.php:102 - Logger::error()
+        #2 TestRunner.php:70 - LoggerTest::testErrorLog()
+        #3 TestRunner.php:54 - TestCase::runTest()
+        #4 TestRunner.php:301 - TestCase::runTests()
+
+[2025-08-15 14:15:38.440] 🐛 [DEBUG] TestClass::testMethod()
+    📝 Message: Test debug message
+    🌐 Request: GET /ClubeMix/run_tests.php
+    📍 Stack Trace:
+        #1 LoggerTest.php:115 - Logger::debug()
+        #2 TestRunner.php:70 - LoggerTest::testDebugLog()
+        #3 TestRunner.php:54 - TestCase::runTest()
+        #4 TestRunner.php:301 - TestCase::runTests()
+
+[2025-08-15 14:15:38.446] 📡 [API] ApiClass::processRequest()
+    📝 Message: API request processed
+    📊 Data: {
+    "method": "POST"
+}
+    🌐 Request: GET /ClubeMix/run_tests.php
+
+[2025-08-15 14:15:38.449] ✅ [VALIDATION] ValidatorClass::validate()
+    📝 Message: Validation passed
+    🌐 Request: GET /ClubeMix/run_tests.php
+
+[2025-08-15 14:15:38.452] 🔒 [SECURITY] SecurityClass::checkAuth()
+    📝 Message: Authentication check
+    📊 Data: {
+    "user_id": 123
+}
+    🌐 Request: GET /ClubeMix/run_tests.php
+
+[2025-08-15 14:15:38.455] 🔵 [INFO] TestClass::testMethod()
+    📝 Message: Test helper info
+    🌐 Request: GET /ClubeMix/run_tests.php
+
+[2025-08-15 14:15:38.456] 🟢 [SUCCESS] TestClass::testMethod()
+    📝 Message: Test helper success
+    🌐 Request: GET /ClubeMix/run_tests.php
+
+[2025-08-15 14:15:38.457] 🔴 [ERROR] TestClass::testMethod()
+    📝 Message: Test helper error
+    🌐 Request: GET /ClubeMix/run_tests.php
+    📍 Stack Trace:
+        #1 Logger.php:343 - Logger::error()
+        #2 LoggerTest.php:165 - logError()
+        #3 TestRunner.php:70 - LoggerTest::testGlobalHelperFunctions()
+        #4 TestRunner.php:54 - TestCase::runTest()
+
+[2025-08-15 14:15:38.458] 🐛 [DEBUG] TestClass::testMethod()
+    📝 Message: Test helper debug
+    🌐 Request: GET /ClubeMix/run_tests.php
+    📍 Stack Trace:
+        #1 Logger.php:348 - Logger::debug()
+        #2 LoggerTest.php:166 - logDebug()
+        #3 TestRunner.php:70 - LoggerTest::testGlobalHelperFunctions()
+        #4 TestRunner.php:54 - TestCase::runTest()
+
+[2025-08-15 14:15:38.461] 🔵 [INFO] TestClass::testComplexData()
+    📝 Message: Complex data test
+    📊 Data: {
+    "user": {
+        "id": 123,
+        "name": "Test User",
+        "roles": [
+            "admin",
+            "user"
+        ]
+    },
+    "request": {
+        "method": "POST",
+        "url": "\/api\/test"
+    }
+}
+    🌐 Request: GET /ClubeMix/run_tests.php
+
+[2025-08-15 14:15:38.464] 🔵 [INFO] TestClass::testTimestamp()
+    📝 Message: Timestamp test
+    🌐 Request: GET /ClubeMix/run_tests.php
+
+[2025-08-15 14:15:38.467] 🔵 [INFO] TestClass::testRequestInfo()
+    📝 Message: Request info test
+    🌐 Request: POST /test/uri
+
+[2025-08-15 14:15:38.477] 🔵 [INFO] TestClass::testDisabled()
+    📝 Message: This should not be logged
+    🌐 Request: POST /test/uri
+
+[2025-08-15 14:15:38.477] 🔴 [ERROR] TestClass::testDisabled()
+    📝 Message: This error should be logged
+    🌐 Request: POST /test/uri
+    📍 Stack Trace:
+        #1 LoggerTest.php:275 - Logger::error()
+        #2 TestRunner.php:70 - LoggerTest::testLogWhenDebugDisabled()
+        #3 TestRunner.php:54 - TestCase::runTest()
+        #4 TestRunner.php:301 - TestCase::runTests()
+
+
+================================================================================
+🚀 CLUBEMIX DEBUG SESSION INICIADA - 2025-08-15 14:15:39
+================================================================================
+📍 IP: ::1
+🌐 User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+📄 Request URI: /ClubeMix/run_tests.php
+🔧 Request Method: GET
+================================================================================
+
+[2025-08-15 14:15:39.686] 🔵 [INFO] TestClass::testMethod()
+    📝 Message: Test info message
+    📊 Data: {
+    "key": "value"
+}
+    🌐 Request: GET /ClubeMix/run_tests.php
+
+[2025-08-15 14:15:39.702] 🟢 [SUCCESS] TestClass::testMethod()
+    📝 Message: Test success message
+    🌐 Request: GET /ClubeMix/run_tests.php
+
+[2025-08-15 14:15:39.709] 🔴 [ERROR] TestClass::testMethod()
+    📝 Message: Test error message
+    📊 Data: {
+    "error": "details"
+}
+    🌐 Request: GET /ClubeMix/run_tests.php
+    📍 Stack Trace:
+        #1 LoggerTest.php:102 - Logger::error()
+        #2 TestRunner.php:70 - LoggerTest::testErrorLog()
+        #3 TestRunner.php:54 - TestCase::runTest()
+        #4 TestRunner.php:301 - TestCase::runTests()
+
+[2025-08-15 14:15:39.712] 🐛 [DEBUG] TestClass::testMethod()
+    📝 Message: Test debug message
+    🌐 Request: GET /ClubeMix/run_tests.php
+    📍 Stack Trace:
+        #1 LoggerTest.php:115 - Logger::debug()
+        #2 TestRunner.php:70 - LoggerTest::testDebugLog()
+        #3 TestRunner.php:54 - TestCase::runTest()
+        #4 TestRunner.php:301 - TestCase::runTests()
+
+[2025-08-15 14:15:39.715] 📡 [API] ApiClass::processRequest()
+    📝 Message: API request processed
+    📊 Data: {
+    "method": "POST"
+}
+    🌐 Request: GET /ClubeMix/run_tests.php
+
+[2025-08-15 14:15:39.717] ✅ [VALIDATION] ValidatorClass::validate()
+    📝 Message: Validation passed
+    🌐 Request: GET /ClubeMix/run_tests.php
+
+[2025-08-15 14:15:39.721] 🔒 [SECURITY] SecurityClass::checkAuth()
+    📝 Message: Authentication check
+    📊 Data: {
+    "user_id": 123
+}
+    🌐 Request: GET /ClubeMix/run_tests.php
+
+[2025-08-15 14:15:39.726] 🔵 [INFO] TestClass::testMethod()
+    📝 Message: Test helper info
+    🌐 Request: GET /ClubeMix/run_tests.php
+
+[2025-08-15 14:15:39.726] 🟢 [SUCCESS] TestClass::testMethod()
+    📝 Message: Test helper success
+    🌐 Request: GET /ClubeMix/run_tests.php
+
+[2025-08-15 14:15:39.727] 🔴 [ERROR] TestClass::testMethod()
+    📝 Message: Test helper error
+    🌐 Request: GET /ClubeMix/run_tests.php
+    📍 Stack Trace:
+        #1 Logger.php:343 - Logger::error()
+        #2 LoggerTest.php:165 - logError()
+        #3 TestRunner.php:70 - LoggerTest::testGlobalHelperFunctions()
+        #4 TestRunner.php:54 - TestCase::runTest()
+
+[2025-08-15 14:15:39.727] 🐛 [DEBUG] TestClass::testMethod()
+    📝 Message: Test helper debug
+    🌐 Request: GET /ClubeMix/run_tests.php
+    📍 Stack Trace:
+        #1 Logger.php:348 - Logger::debug()
+        #2 LoggerTest.php:166 - logDebug()
+        #3 TestRunner.php:70 - LoggerTest::testGlobalHelperFunctions()
+        #4 TestRunner.php:54 - TestCase::runTest()
+
+[2025-08-15 14:15:39.730] 🔵 [INFO] TestClass::testComplexData()
+    📝 Message: Complex data test
+    📊 Data: {
+    "user": {
+        "id": 123,
+        "name": "Test User",
+        "roles": [
+            "admin",
+            "user"
+        ]
+    },
+    "request": {
+        "method": "POST",
+        "url": "\/api\/test"
+    }
+}
+    🌐 Request: GET /ClubeMix/run_tests.php
+
+[2025-08-15 14:15:39.733] 🔵 [INFO] TestClass::testTimestamp()
+    📝 Message: Timestamp test
+    🌐 Request: GET /ClubeMix/run_tests.php
+
+[2025-08-15 14:15:39.736] 🔵 [INFO] TestClass::testRequestInfo()
+    📝 Message: Request info test
+    🌐 Request: POST /test/uri
+
+[2025-08-15 14:15:39.746] 🔵 [INFO] TestClass::testDisabled()
+    📝 Message: This should not be logged
+    🌐 Request: POST /test/uri
+
+[2025-08-15 14:15:39.746] 🔴 [ERROR] TestClass::testDisabled()
+    📝 Message: This error should be logged
+    🌐 Request: POST /test/uri
+    📍 Stack Trace:
+        #1 LoggerTest.php:275 - Logger::error()
+        #2 TestRunner.php:70 - LoggerTest::testLogWhenDebugDisabled()
+        #3 TestRunner.php:54 - TestCase::runTest()
+        #4 TestRunner.php:301 - TestCase::runTests()
+
+
+================================================================================
+🚀 CLUBEMIX DEBUG SESSION INICIADA - 2025-08-15 14:15:40
+================================================================================
+📍 IP: ::1
+🌐 User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+📄 Request URI: /ClubeMix/run_tests.php
+🔧 Request Method: GET
+================================================================================
+
+[2025-08-15 14:15:40.782] 🔵 [INFO] TestClass::testMethod()
+    📝 Message: Test info message
+    📊 Data: {
+    "key": "value"
+}
+    🌐 Request: GET /ClubeMix/run_tests.php
+
+[2025-08-15 14:15:40.785] 🟢 [SUCCESS] TestClass::testMethod()
+    📝 Message: Test success message
+    🌐 Request: GET /ClubeMix/run_tests.php
+
+[2025-08-15 14:15:40.792] 🔴 [ERROR] TestClass::testMethod()
+    📝 Message: Test error message
+    📊 Data: {
+    "error": "details"
+}
+    🌐 Request: GET /ClubeMix/run_tests.php
+    📍 Stack Trace:
+        #1 LoggerTest.php:102 - Logger::error()
+        #2 TestRunner.php:70 - LoggerTest::testErrorLog()
+        #3 TestRunner.php:54 - TestCase::runTest()
+        #4 TestRunner.php:301 - TestCase::runTests()
+
+[2025-08-15 14:15:40.795] 🐛 [DEBUG] TestClass::testMethod()
+    📝 Message: Test debug message
+    🌐 Request: GET /ClubeMix/run_tests.php
+    📍 Stack Trace:
+        #1 LoggerTest.php:115 - Logger::debug()
+        #2 TestRunner.php:70 - LoggerTest::testDebugLog()
+        #3 TestRunner.php:54 - TestCase::runTest()
+        #4 TestRunner.php:301 - TestCase::runTests()
+
+[2025-08-15 14:15:40.798] 📡 [API] ApiClass::processRequest()
+    📝 Message: API request processed
+    📊 Data: {
+    "method": "POST"
+}
+    🌐 Request: GET /ClubeMix/run_tests.php
+
+[2025-08-15 14:15:40.801] ✅ [VALIDATION] ValidatorClass::validate()
+    📝 Message: Validation passed
+    🌐 Request: GET /ClubeMix/run_tests.php
+
+[2025-08-15 14:15:40.805] 🔒 [SECURITY] SecurityClass::checkAuth()
+    📝 Message: Authentication check
+    📊 Data: {
+    "user_id": 123
+}
+    🌐 Request: GET /ClubeMix/run_tests.php
+
+[2025-08-15 14:15:40.808] 🔵 [INFO] TestClass::testMethod()
+    📝 Message: Test helper info
+    🌐 Request: GET /ClubeMix/run_tests.php
+
+[2025-08-15 14:15:40.809] 🟢 [SUCCESS] TestClass::testMethod()
+    📝 Message: Test helper success
+    🌐 Request: GET /ClubeMix/run_tests.php
+
+[2025-08-15 14:15:40.809] 🔴 [ERROR] TestClass::testMethod()
+    📝 Message: Test helper error
+    🌐 Request: GET /ClubeMix/run_tests.php
+    📍 Stack Trace:
+        #1 Logger.php:343 - Logger::error()
+        #2 LoggerTest.php:165 - logError()
+        #3 TestRunner.php:70 - LoggerTest::testGlobalHelperFunctions()
+        #4 TestRunner.php:54 - TestCase::runTest()
+
+[2025-08-15 14:15:40.810] 🐛 [DEBUG] TestClass::testMethod()
+    📝 Message: Test helper debug
+    🌐 Request: GET /ClubeMix/run_tests.php
+    📍 Stack Trace:
+        #1 Logger.php:348 - Logger::debug()
+        #2 LoggerTest.php:166 - logDebug()
+        #3 TestRunner.php:70 - LoggerTest::testGlobalHelperFunctions()
+        #4 TestRunner.php:54 - TestCase::runTest()
+
+[2025-08-15 14:15:40.812] 🔵 [INFO] TestClass::testComplexData()
+    📝 Message: Complex data test
+    📊 Data: {
+    "user": {
+        "id": 123,
+        "name": "Test User",
+        "roles": [
+            "admin",
+            "user"
+        ]
+    },
+    "request": {
+        "method": "POST",
+        "url": "\/api\/test"
+    }
+}
+    🌐 Request: GET /ClubeMix/run_tests.php
+
+[2025-08-15 14:15:40.815] 🔵 [INFO] TestClass::testTimestamp()
+    📝 Message: Timestamp test
+    🌐 Request: GET /ClubeMix/run_tests.php
+
+[2025-08-15 14:15:40.818] 🔵 [INFO] TestClass::testRequestInfo()
+    📝 Message: Request info test
+    🌐 Request: POST /test/uri
+
+[2025-08-15 14:15:40.826] 🔵 [INFO] TestClass::testDisabled()
+    📝 Message: This should not be logged
+    🌐 Request: POST /test/uri
+
+[2025-08-15 14:15:40.827] 🔴 [ERROR] TestClass::testDisabled()
+    📝 Message: This error should be logged
+    🌐 Request: POST /test/uri
+    📍 Stack Trace:
+        #1 LoggerTest.php:275 - Logger::error()
+        #2 TestRunner.php:70 - LoggerTest::testLogWhenDebugDisabled()
+        #3 TestRunner.php:54 - TestCase::runTest()
+        #4 TestRunner.php:301 - TestCase::runTests()
+
+
+================================================================================
+🚀 CLUBEMIX DEBUG SESSION INICIADA - 2025-08-15 14:18:15
+================================================================================
+📍 IP: unknown
+🌐 User Agent: unknown
+📄 Request URI: unknown
+🔧 Request Method: unknown
+================================================================================
+
+[2025-08-15 14:18:15.229] 🔵 [INFO] TestClass::testMethod()
+    📝 Message: Test info message
+    📊 Data: {
+    "key": "value"
+}
+    🌐 Request: unknown unknown
+
+[2025-08-15 14:18:15.258] 🟢 [SUCCESS] TestClass::testMethod()
+    📝 Message: Test success message
+    🌐 Request: unknown unknown
+
+[2025-08-15 14:18:15.316] 🔴 [ERROR] TestClass::testMethod()
+    📝 Message: Test error message
+    📊 Data: {
+    "error": "details"
+}
+    🌐 Request: unknown unknown
+    📍 Stack Trace:
+        #1 LoggerTest.php:102 - Logger::error()
+        #2 TestRunner.php:70 - LoggerTest::testErrorLog()
+        #3 TestRunner.php:54 - TestCase::runTest()
+        #4 TestRunner.php:301 - TestCase::runTests()
+
+[2025-08-15 14:18:15.347] 🐛 [DEBUG] TestClass::testMethod()
+    📝 Message: Test debug message
+    🌐 Request: unknown unknown
+    📍 Stack Trace:
+        #1 LoggerTest.php:115 - Logger::debug()
+        #2 TestRunner.php:70 - LoggerTest::testDebugLog()
+        #3 TestRunner.php:54 - TestCase::runTest()
+        #4 TestRunner.php:301 - TestCase::runTests()
+
+[2025-08-15 14:18:15.379] 📡 [API] ApiClass::processRequest()
+    📝 Message: API request processed
+    📊 Data: {
+    "method": "POST"
+}
+    🌐 Request: unknown unknown
+
+[2025-08-15 14:18:15.409] ✅ [VALIDATION] ValidatorClass::validate()
+    📝 Message: Validation passed
+    🌐 Request: unknown unknown
+
+[2025-08-15 14:18:15.443] 🔒 [SECURITY] SecurityClass::checkAuth()
+    📝 Message: Authentication check
+    📊 Data: {
+    "user_id": 123
+}
+    🌐 Request: unknown unknown
+
+[2025-08-15 14:18:15.480] 🔵 [INFO] TestClass::testMethod()
+    📝 Message: Test helper info
+    🌐 Request: unknown unknown
+
+[2025-08-15 14:18:15.480] 🟢 [SUCCESS] TestClass::testMethod()
+    📝 Message: Test helper success
+    🌐 Request: unknown unknown
+
+[2025-08-15 14:18:15.481] 🔴 [ERROR] TestClass::testMethod()
+    📝 Message: Test helper error
+    🌐 Request: unknown unknown
+    📍 Stack Trace:
+        #1 Logger.php:343 - Logger::error()
+        #2 LoggerTest.php:165 - logError()
+        #3 TestRunner.php:70 - LoggerTest::testGlobalHelperFunctions()
+        #4 TestRunner.php:54 - TestCase::runTest()
+
+[2025-08-15 14:18:15.481] 🐛 [DEBUG] TestClass::testMethod()
+    📝 Message: Test helper debug
+    🌐 Request: unknown unknown
+    📍 Stack Trace:
+        #1 Logger.php:348 - Logger::debug()
+        #2 LoggerTest.php:166 - logDebug()
+        #3 TestRunner.php:70 - LoggerTest::testGlobalHelperFunctions()
+        #4 TestRunner.php:54 - TestCase::runTest()
+
+[2025-08-15 14:18:15.538] 🔵 [INFO] TestClass::testComplexData()
+    📝 Message: Complex data test
+    📊 Data: {
+    "user": {
+        "id": 123,
+        "name": "Test User",
+        "roles": [
+            "admin",
+            "user"
+        ]
+    },
+    "request": {
+        "method": "POST",
+        "url": "\/api\/test"
+    }
+}
+    🌐 Request: unknown unknown
+
+[2025-08-15 14:18:15.578] 🔵 [INFO] TestClass::testTimestamp()
+    📝 Message: Timestamp test
+    🌐 Request: unknown unknown
+
+[2025-08-15 14:18:15.609] 🔵 [INFO] TestClass::testRequestInfo()
+    📝 Message: Request info test
+    🌐 Request: POST /test/uri
+
+[2025-08-15 14:18:15.642] 🔵 [INFO] TestClass::testDisabled()
+    📝 Message: This should not be logged
+    🌐 Request: POST /test/uri
+
+[2025-08-15 14:18:15.643] 🔴 [ERROR] TestClass::testDisabled()
+    📝 Message: This error should be logged
+    🌐 Request: POST /test/uri
+    📍 Stack Trace:
+        #1 LoggerTest.php:275 - Logger::error()
+        #2 TestRunner.php:70 - LoggerTest::testLogWhenDebugDisabled()
+        #3 TestRunner.php:54 - TestCase::runTest()
+        #4 TestRunner.php:301 - TestCase::runTests()
+
+
+================================================================================
+🚀 CLUBEMIX DEBUG SESSION INICIADA - 2025-08-15 14:18:28
+================================================================================
+📍 IP: ::1
+🌐 User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+📄 Request URI: /ClubeMix/run_tests.php
+🔧 Request Method: GET
+================================================================================
+
+[2025-08-15 14:18:28.519] 🔵 [INFO] TestClass::testMethod()
+    📝 Message: Test info message
+    📊 Data: {
+    "key": "value"
+}
+    🌐 Request: GET /ClubeMix/run_tests.php
+
+[2025-08-15 14:18:28.522] 🟢 [SUCCESS] TestClass::testMethod()
+    📝 Message: Test success message
+    🌐 Request: GET /ClubeMix/run_tests.php
+
+[2025-08-15 14:18:28.526] 🔴 [ERROR] TestClass::testMethod()
+    📝 Message: Test error message
+    📊 Data: {
+    "error": "details"
+}
+    🌐 Request: GET /ClubeMix/run_tests.php
+    📍 Stack Trace:
+        #1 LoggerTest.php:102 - Logger::error()
+        #2 TestRunner.php:70 - LoggerTest::testErrorLog()
+        #3 TestRunner.php:54 - TestCase::runTest()
+        #4 TestRunner.php:301 - TestCase::runTests()
+
+[2025-08-15 14:18:28.529] 🐛 [DEBUG] TestClass::testMethod()
+    📝 Message: Test debug message
+    🌐 Request: GET /ClubeMix/run_tests.php
+    📍 Stack Trace:
+        #1 LoggerTest.php:115 - Logger::debug()
+        #2 TestRunner.php:70 - LoggerTest::testDebugLog()
+        #3 TestRunner.php:54 - TestCase::runTest()
+        #4 TestRunner.php:301 - TestCase::runTests()
+
+[2025-08-15 14:18:28.532] 📡 [API] ApiClass::processRequest()
+    📝 Message: API request processed
+    📊 Data: {
+    "method": "POST"
+}
+    🌐 Request: GET /ClubeMix/run_tests.php
+
+[2025-08-15 14:18:28.535] ✅ [VALIDATION] ValidatorClass::validate()
+    📝 Message: Validation passed
+    🌐 Request: GET /ClubeMix/run_tests.php
+
+[2025-08-15 14:18:28.537] 🔒 [SECURITY] SecurityClass::checkAuth()
+    📝 Message: Authentication check
+    📊 Data: {
+    "user_id": 123
+}
+    🌐 Request: GET /ClubeMix/run_tests.php
+
+[2025-08-15 14:18:28.572] 🔵 [INFO] TestClass::testMethod()
+    📝 Message: Test helper info
+    🌐 Request: GET /ClubeMix/run_tests.php
+
+[2025-08-15 14:18:28.573] 🟢 [SUCCESS] TestClass::testMethod()
+    📝 Message: Test helper success
+    🌐 Request: GET /ClubeMix/run_tests.php
+
+[2025-08-15 14:18:28.573] 🔴 [ERROR] TestClass::testMethod()
+    📝 Message: Test helper error
+    🌐 Request: GET /ClubeMix/run_tests.php
+    📍 Stack Trace:
+        #1 Logger.php:343 - Logger::error()
+        #2 LoggerTest.php:165 - logError()
+        #3 TestRunner.php:70 - LoggerTest::testGlobalHelperFunctions()
+        #4 TestRunner.php:54 - TestCase::runTest()
+
+[2025-08-15 14:18:28.575] 🐛 [DEBUG] TestClass::testMethod()
+    📝 Message: Test helper debug
+    🌐 Request: GET /ClubeMix/run_tests.php
+    📍 Stack Trace:
+        #1 Logger.php:348 - Logger::debug()
+        #2 LoggerTest.php:166 - logDebug()
+        #3 TestRunner.php:70 - LoggerTest::testGlobalHelperFunctions()
+        #4 TestRunner.php:54 - TestCase::runTest()
+
+[2025-08-15 14:18:28.578] 🔵 [INFO] TestClass::testComplexData()
+    📝 Message: Complex data test
+    📊 Data: {
+    "user": {
+        "id": 123,
+        "name": "Test User",
+        "roles": [
+            "admin",
+            "user"
+        ]
+    },
+    "request": {
+        "method": "POST",
+        "url": "\/api\/test"
+    }
+}
+    🌐 Request: GET /ClubeMix/run_tests.php
+
+[2025-08-15 14:18:28.581] 🔵 [INFO] TestClass::testTimestamp()
+    📝 Message: Timestamp test
+    🌐 Request: GET /ClubeMix/run_tests.php
+
+[2025-08-15 14:18:28.584] 🔵 [INFO] TestClass::testRequestInfo()
+    📝 Message: Request info test
+    🌐 Request: POST /test/uri
+
+[2025-08-15 14:18:28.594] 🔵 [INFO] TestClass::testDisabled()
+    📝 Message: This should not be logged
+    🌐 Request: POST /test/uri
+
+[2025-08-15 14:18:28.594] 🔴 [ERROR] TestClass::testDisabled()
+    📝 Message: This error should be logged
+    🌐 Request: POST /test/uri
+    📍 Stack Trace:
+        #1 LoggerTest.php:275 - Logger::error()
+        #2 TestRunner.php:70 - LoggerTest::testLogWhenDebugDisabled()
+        #3 TestRunner.php:54 - TestCase::runTest()
+        #4 TestRunner.php:301 - TestCase::runTests()
+
+[2025-08-15 14:34:09.593] 🔴 [ERROR] ClienteCadastroApi::__construct()
+    📝 Message: Método não permitido
+    📊 Data: {
+    "method": "GET",
+    "allowed": [
+        "POST"
+    ]
+}
+    🌐 Request: GET /ClubeMix/api/cliente/cadastro.php
+    📍 Stack Trace:
+        #1 Logger.php:343 - Logger::error()
+        #2 ApiBase.php:61 - logError()
+        #3 cadastro.php:355 - ApiBase::__construct()
+
+[2025-08-15 14:34:09.594] 🔴 [ERROR] ClienteCadastroApi::sendError()
+    📝 Message: Método não permitido
+    📊 Data: {
+    "code": 405,
+    "errors": null,
+    "method": "GET",
+    "request_data": []
+}
+    🌐 Request: GET /ClubeMix/api/cliente/cadastro.php
+    📍 Stack Trace:
+        #1 Logger.php:343 - Logger::error()
+        #2 ApiBase.php:162 - logError()
+        #3 ApiBase.php:65 - ApiBase::sendError()
+        #4 cadastro.php:355 - ApiBase::__construct()
+
+[2025-08-15 14:39:20.422] 🔴 [ERROR] ClienteCadastroApi::validateRequired()
+    📝 Message: Validação falhou
+    📊 Data: {
+    "senha": "Campo senha é obrigatório"
+}
+    🌐 Request: POST /ClubeMix/api/cliente/cadastro.php
+    📍 Stack Trace:
+        #1 Logger.php:343 - Logger::error()
+        #2 ApiBase.php:212 - logError()
+        #3 cadastro.php:149 - ApiBase::validateRequired()
+        #4 cadastro.php:60 - ClienteCadastroApi::validateClientData()
+
+[2025-08-15 14:39:20.424] 🔴 [ERROR] ClienteCadastroApi::sendError()
+    📝 Message: Dados inválidos
+    📊 Data: {
+    "code": 400,
+    "errors": {
+        "senha": "Campo senha é obrigatório"
+    },
+    "method": "POST",
+    "request_data": {
+        "nome_completo": "Adriano da Silva Souza",
+        "cpf": "309.725.958-99",
+        "email": "adriano.ssouza@gmail.com",
+        "whatsapp": "(11) 98451-2298",
+        "data_nascimento": "1989-10-17",
+        "cep": "01032-001",
+        "rua": "Rua Brigadeiro Tobias",
+        "numero": "613",
+        "complemento": "Apto 13",
+        "bairro": "Centro",
+        "cidade": "São Paulo",
+        "estado": "SP",
+        "codigo_indicacao": "01032-001",
+        "senha": null
+    }
+}
+    🌐 Request: POST /ClubeMix/api/cliente/cadastro.php
+    📍 Stack Trace:
+        #1 Logger.php:343 - Logger::error()
+        #2 ApiBase.php:162 - logError()
+        #3 cadastro.php:63 - ApiBase::sendError()
+        #4 cadastro.php:27 - ClienteCadastroApi::cadastrarCliente()
+
+[2025-08-15 14:40:56.940] 🔴 [ERROR] ClienteCadastroApi::__construct()
+    📝 Message: Método não permitido
+    📊 Data: {
+    "method": "GET",
+    "allowed": [
+        "POST"
+    ]
+}
+    🌐 Request: GET /ClubeMix/api/cliente/cadastro.php
+    📍 Stack Trace:
+        #1 Logger.php:343 - Logger::error()
+        #2 ApiBase.php:61 - logError()
+        #3 cadastro.php:355 - ApiBase::__construct()
+
+[2025-08-15 14:40:56.941] 🔴 [ERROR] ClienteCadastroApi::sendError()
+    📝 Message: Método não permitido
+    📊 Data: {
+    "code": 405,
+    "errors": null,
+    "method": "GET",
+    "request_data": []
+}
+    🌐 Request: GET /ClubeMix/api/cliente/cadastro.php
+    📍 Stack Trace:
+        #1 Logger.php:343 - Logger::error()
+        #2 ApiBase.php:162 - logError()
+        #3 ApiBase.php:65 - ApiBase::sendError()
+        #4 cadastro.php:355 - ApiBase::__construct()
+
+
+================================================================================
+🚀 CLUBEMIX DEBUG SESSION INICIADA - 2025-08-15 14:45:03
+================================================================================
+📍 IP: unknown
+🌐 User Agent: unknown
+📄 Request URI: unknown
+🔧 Request Method: unknown
+================================================================================
+
+[2025-08-15 14:45:03.558] 🔵 [INFO] TestClass::testMethod()
+    📝 Message: Test info message
+    📊 Data: {
+    "key": "value"
+}
+    🌐 Request: unknown unknown
+
+[2025-08-15 14:45:03.592] 🟢 [SUCCESS] TestClass::testMethod()
+    📝 Message: Test success message
+    🌐 Request: unknown unknown
+
+[2025-08-15 14:45:03.631] 🔴 [ERROR] TestClass::testMethod()
+    📝 Message: Test error message
+    📊 Data: {
+    "error": "details"
+}
+    🌐 Request: unknown unknown
+    📍 Stack Trace:
+        #1 LoggerTest.php:102 - Logger::error()
+        #2 TestRunner.php:70 - LoggerTest::testErrorLog()
+        #3 TestRunner.php:54 - TestCase::runTest()
+        #4 TestRunner.php:301 - TestCase::runTests()
+
+[2025-08-15 14:45:03.656] 🐛 [DEBUG] TestClass::testMethod()
+    📝 Message: Test debug message
+    🌐 Request: unknown unknown
+    📍 Stack Trace:
+        #1 LoggerTest.php:115 - Logger::debug()
+        #2 TestRunner.php:70 - LoggerTest::testDebugLog()
+        #3 TestRunner.php:54 - TestCase::runTest()
+        #4 TestRunner.php:301 - TestCase::runTests()
+
+[2025-08-15 14:45:03.687] 📡 [API] ApiClass::processRequest()
+    📝 Message: API request processed
+    📊 Data: {
+    "method": "POST"
+}
+    🌐 Request: unknown unknown
+
+[2025-08-15 14:45:03.716] ✅ [VALIDATION] ValidatorClass::validate()
+    📝 Message: Validation passed
+    🌐 Request: unknown unknown
+
+[2025-08-15 14:45:03.752] 🔒 [SECURITY] SecurityClass::checkAuth()
+    📝 Message: Authentication check
+    📊 Data: {
+    "user_id": 123
+}
+    🌐 Request: unknown unknown
+
+[2025-08-15 14:45:03.778] 🔵 [INFO] TestClass::testMethod()
+    📝 Message: Test helper info
+    🌐 Request: unknown unknown
+
+[2025-08-15 14:45:03.779] 🟢 [SUCCESS] TestClass::testMethod()
+    📝 Message: Test helper success
+    🌐 Request: unknown unknown
+
+[2025-08-15 14:45:03.779] 🔴 [ERROR] TestClass::testMethod()
+    📝 Message: Test helper error
+    🌐 Request: unknown unknown
+    📍 Stack Trace:
+        #1 Logger.php:343 - Logger::error()
+        #2 LoggerTest.php:165 - logError()
+        #3 TestRunner.php:70 - LoggerTest::testGlobalHelperFunctions()
+        #4 TestRunner.php:54 - TestCase::runTest()
+
+[2025-08-15 14:45:03.780] 🐛 [DEBUG] TestClass::testMethod()
+    📝 Message: Test helper debug
+    🌐 Request: unknown unknown
+    📍 Stack Trace:
+        #1 Logger.php:348 - Logger::debug()
+        #2 LoggerTest.php:166 - logDebug()
+        #3 TestRunner.php:70 - LoggerTest::testGlobalHelperFunctions()
+        #4 TestRunner.php:54 - TestCase::runTest()
+
+[2025-08-15 14:45:03.809] 🔵 [INFO] TestClass::testComplexData()
+    📝 Message: Complex data test
+    📊 Data: {
+    "user": {
+        "id": 123,
+        "name": "Test User",
+        "roles": [
+            "admin",
+            "user"
+        ]
+    },
+    "request": {
+        "method": "POST",
+        "url": "\/api\/test"
+    }
+}
+    🌐 Request: unknown unknown
+
+[2025-08-15 14:45:03.839] 🔵 [INFO] TestClass::testTimestamp()
+    📝 Message: Timestamp test
+    🌐 Request: unknown unknown
+
+[2025-08-15 14:45:03.869] 🔵 [INFO] TestClass::testRequestInfo()
+    📝 Message: Request info test
+    🌐 Request: POST /test/uri
+
+[2025-08-15 14:45:03.914] 🔵 [INFO] TestClass::testDisabled()
+    📝 Message: This should not be logged
+    🌐 Request: POST /test/uri
+
+[2025-08-15 14:45:03.914] 🔴 [ERROR] TestClass::testDisabled()
+    📝 Message: This error should be logged
+    🌐 Request: POST /test/uri
+    📍 Stack Trace:
+        #1 LoggerTest.php:275 - Logger::error()
+        #2 TestRunner.php:70 - LoggerTest::testLogWhenDebugDisabled()
+        #3 TestRunner.php:54 - TestCase::runTest()
+        #4 TestRunner.php:301 - TestCase::runTests()
+
+[2025-08-15 14:55:27.671] 🔴 [ERROR] EmpresaCadastroApi::sendError()
+    📝 Message: Dados inválidos
+    📊 Data: {
+    "code": 400,
+    "errors": {
+        "cnpj": "CNPJ inválido"
+    },
+    "method": "POST",
+    "request_data": {
+        "razao_social": "Nome da Empresa",
+        "nome_fantasia": "Nome da Empresa Fantasia",
+        "cnpj": "30.934.030\/4303-03",
+        "inscricao_estadual": "30303030303030303030",
+        "email": "adriano.ssouza@gmail.com",
+        "telefone": "(11) 9845-1229",
+        "cep": "01032-001",
+        "rua": "Rua Brigadeiro Tobias",
+        "numero": "613",
+        "complemento": "apto 13",
+        "bairro": "Centro",
+        "cidade": "São Paulo",
+        "estado": "SP",
+        "segmento": "restaurante",
+        "senha": "Teste@1234"
+    }
+}
+    🌐 Request: POST /ClubeMix/api/empresa/cadastro.php
+    📍 Stack Trace:
+        #1 Logger.php:343 - Logger::error()
+        #2 ApiBase.php:162 - logError()
+        #3 cadastro.php:46 - ApiBase::sendError()
+        #4 cadastro.php:23 - EmpresaCadastroApi::cadastrarEmpresa()
+
+[2025-08-15 14:59:09.541] 🔴 [ERROR] EmpresaCadastroApi::sendError()
+    📝 Message: Email já cadastrado no sistema
+    📊 Data: {
+    "code": 400,
+    "errors": {
+        "email": "Este email já está em uso"
+    },
+    "method": "POST",
+    "request_data": {
+        "razao_social": "Nome da Empresa",
+        "nome_fantasia": "Nome da Empresa Fantasia",
+        "cnpj": "75.250.544\/0001-00",
+        "inscricao_estadual": "30303030303030303030",
+        "email": "adriano.ssouza@gmail.com",
+        "telefone": "(11) 9845-1229",
+        "cep": "01032-001",
+        "rua": "Rua Brigadeiro Tobias",
+        "numero": "613",
+        "complemento": "apto 13",
+        "bairro": "Centro",
+        "cidade": "São Paulo",
+        "estado": "SP",
+        "segmento": "restaurante",
+        "senha": "Teste@1234"
+    }
+}
+    🌐 Request: POST /ClubeMix/api/empresa/cadastro.php
+    📍 Stack Trace:
+        #1 Logger.php:343 - Logger::error()
+        #2 ApiBase.php:162 - logError()
+        #3 cadastro.php:51 - ApiBase::sendError()
+        #4 cadastro.php:23 - EmpresaCadastroApi::cadastrarEmpresa()
+
+
+================================================================================
+🚀 CLUBEMIX DEBUG SESSION INICIADA - 2025-08-15 15:11:06
+================================================================================
+📍 IP: unknown
+🌐 User Agent: unknown
+📄 Request URI: unknown
+🔧 Request Method: unknown
+================================================================================
+
+[2025-08-15 15:11:06.558] 🔵 [INFO] TestClass::testMethod()
+    📝 Message: Test info message
+    📊 Data: {
+    "key": "value"
+}
+    🌐 Request: unknown unknown
+
+[2025-08-15 15:11:06.594] 🟢 [SUCCESS] TestClass::testMethod()
+    📝 Message: Test success message
+    🌐 Request: unknown unknown
+
+[2025-08-15 15:11:06.624] 🔴 [ERROR] TestClass::testMethod()
+    📝 Message: Test error message
+    📊 Data: {
+    "error": "details"
+}
+    🌐 Request: unknown unknown
+    📍 Stack Trace:
+        #1 LoggerTest.php:102 - Logger::error()
+        #2 TestRunner.php:70 - LoggerTest::testErrorLog()
+        #3 TestRunner.php:54 - TestCase::runTest()
+        #4 TestRunner.php:301 - TestCase::runTests()
+
+[2025-08-15 15:11:06.649] 🐛 [DEBUG] TestClass::testMethod()
+    📝 Message: Test debug message
+    🌐 Request: unknown unknown
+    📍 Stack Trace:
+        #1 LoggerTest.php:115 - Logger::debug()
+        #2 TestRunner.php:70 - LoggerTest::testDebugLog()
+        #3 TestRunner.php:54 - TestCase::runTest()
+        #4 TestRunner.php:301 - TestCase::runTests()
+
+[2025-08-15 15:11:06.676] 📡 [API] ApiClass::processRequest()
+    📝 Message: API request processed
+    📊 Data: {
+    "method": "POST"
+}
+    🌐 Request: unknown unknown
+
+[2025-08-15 15:11:06.705] ✅ [VALIDATION] ValidatorClass::validate()
+    📝 Message: Validation passed
+    🌐 Request: unknown unknown
+
+[2025-08-15 15:11:06.743] 🔒 [SECURITY] SecurityClass::checkAuth()
+    📝 Message: Authentication check
+    📊 Data: {
+    "user_id": 123
+}
+    🌐 Request: unknown unknown
+
+[2025-08-15 15:11:06.779] 🔵 [INFO] TestClass::testMethod()
+    📝 Message: Test helper info
+    🌐 Request: unknown unknown
+
+[2025-08-15 15:11:06.779] 🟢 [SUCCESS] TestClass::testMethod()
+    📝 Message: Test helper success
+    🌐 Request: unknown unknown
+
+[2025-08-15 15:11:06.780] 🔴 [ERROR] TestClass::testMethod()
+    📝 Message: Test helper error
+    🌐 Request: unknown unknown
+    📍 Stack Trace:
+        #1 Logger.php:343 - Logger::error()
+        #2 LoggerTest.php:165 - logError()
+        #3 TestRunner.php:70 - LoggerTest::testGlobalHelperFunctions()
+        #4 TestRunner.php:54 - TestCase::runTest()
+
+[2025-08-15 15:11:06.780] 🐛 [DEBUG] TestClass::testMethod()
+    📝 Message: Test helper debug
+    🌐 Request: unknown unknown
+    📍 Stack Trace:
+        #1 Logger.php:348 - Logger::debug()
+        #2 LoggerTest.php:166 - logDebug()
+        #3 TestRunner.php:70 - LoggerTest::testGlobalHelperFunctions()
+        #4 TestRunner.php:54 - TestCase::runTest()
+
+[2025-08-15 15:11:06.813] 🔵 [INFO] TestClass::testComplexData()
+    📝 Message: Complex data test
+    📊 Data: {
+    "user": {
+        "id": 123,
+        "name": "Test User",
+        "roles": [
+            "admin",
+            "user"
+        ]
+    },
+    "request": {
+        "method": "POST",
+        "url": "\/api\/test"
+    }
+}
+    🌐 Request: unknown unknown
+
+[2025-08-15 15:11:06.845] 🔵 [INFO] TestClass::testTimestamp()
+    📝 Message: Timestamp test
+    🌐 Request: unknown unknown
+
+[2025-08-15 15:11:06.878] 🔵 [INFO] TestClass::testRequestInfo()
+    📝 Message: Request info test
+    🌐 Request: POST /test/uri
+
+[2025-08-15 15:11:06.915] 🔵 [INFO] TestClass::testDisabled()
+    📝 Message: This should not be logged
+    🌐 Request: POST /test/uri
+
+[2025-08-15 15:11:06.922] 🔴 [ERROR] TestClass::testDisabled()
+    📝 Message: This error should be logged
+    🌐 Request: POST /test/uri
+    📍 Stack Trace:
+        #1 LoggerTest.php:275 - Logger::error()
+        #2 TestRunner.php:70 - LoggerTest::testLogWhenDebugDisabled()
+        #3 TestRunner.php:54 - TestCase::runTest()
+        #4 TestRunner.php:301 - TestCase::runTests()
+
+
+================================================================================
+🚀 CLUBEMIX DEBUG SESSION INICIADA - 2025-08-15 15:11:32
+================================================================================
+📍 IP: unknown
+🌐 User Agent: unknown
+📄 Request URI: unknown
+🔧 Request Method: unknown
+================================================================================
+
+[2025-08-15 15:11:32.242] 🔵 [INFO] TestClass::testMethod()
+    📝 Message: Test info message
+    📊 Data: {
+    "key": "value"
+}
+    🌐 Request: unknown unknown
+
+[2025-08-15 15:11:32.277] 🟢 [SUCCESS] TestClass::testMethod()
+    📝 Message: Test success message
+    🌐 Request: unknown unknown
+
+[2025-08-15 15:11:32.312] 🔴 [ERROR] TestClass::testMethod()
+    📝 Message: Test error message
+    📊 Data: {
+    "error": "details"
+}
+    🌐 Request: unknown unknown
+    📍 Stack Trace:
+        #1 LoggerTest.php:102 - Logger::error()
+        #2 TestRunner.php:70 - LoggerTest::testErrorLog()
+        #3 TestRunner.php:54 - TestCase::runTest()
+        #4 TestRunner.php:309 - TestCase::runTests()
+
+[2025-08-15 15:11:32.336] 🐛 [DEBUG] TestClass::testMethod()
+    📝 Message: Test debug message
+    🌐 Request: unknown unknown
+    📍 Stack Trace:
+        #1 LoggerTest.php:115 - Logger::debug()
+        #2 TestRunner.php:70 - LoggerTest::testDebugLog()
+        #3 TestRunner.php:54 - TestCase::runTest()
+        #4 TestRunner.php:309 - TestCase::runTests()
+
+[2025-08-15 15:11:32.371] 📡 [API] ApiClass::processRequest()
+    📝 Message: API request processed
+    📊 Data: {
+    "method": "POST"
+}
+    🌐 Request: unknown unknown
+
+[2025-08-15 15:11:32.401] ✅ [VALIDATION] ValidatorClass::validate()
+    📝 Message: Validation passed
+    🌐 Request: unknown unknown
+
+[2025-08-15 15:11:32.436] 🔒 [SECURITY] SecurityClass::checkAuth()
+    📝 Message: Authentication check
+    📊 Data: {
+    "user_id": 123
+}
+    🌐 Request: unknown unknown
+
+[2025-08-15 15:11:32.468] 🔵 [INFO] TestClass::testMethod()
+    📝 Message: Test helper info
+    🌐 Request: unknown unknown
+
+[2025-08-15 15:11:32.468] 🟢 [SUCCESS] TestClass::testMethod()
+    📝 Message: Test helper success
+    🌐 Request: unknown unknown
+
+[2025-08-15 15:11:32.469] 🔴 [ERROR] TestClass::testMethod()
+    📝 Message: Test helper error
+    🌐 Request: unknown unknown
+    📍 Stack Trace:
+        #1 Logger.php:343 - Logger::error()
+        #2 LoggerTest.php:165 - logError()
+        #3 TestRunner.php:70 - LoggerTest::testGlobalHelperFunctions()
+        #4 TestRunner.php:54 - TestCase::runTest()
+
+[2025-08-15 15:11:32.469] 🐛 [DEBUG] TestClass::testMethod()
+    📝 Message: Test helper debug
+    🌐 Request: unknown unknown
+    📍 Stack Trace:
+        #1 Logger.php:348 - Logger::debug()
+        #2 LoggerTest.php:166 - logDebug()
+        #3 TestRunner.php:70 - LoggerTest::testGlobalHelperFunctions()
+        #4 TestRunner.php:54 - TestCase::runTest()
+
+[2025-08-15 15:11:32.501] 🔵 [INFO] TestClass::testComplexData()
+    📝 Message: Complex data test
+    📊 Data: {
+    "user": {
+        "id": 123,
+        "name": "Test User",
+        "roles": [
+            "admin",
+            "user"
+        ]
+    },
+    "request": {
+        "method": "POST",
+        "url": "\/api\/test"
+    }
+}
+    🌐 Request: unknown unknown
+
+[2025-08-15 15:11:32.532] 🔵 [INFO] TestClass::testTimestamp()
+    📝 Message: Timestamp test
+    🌐 Request: unknown unknown
+
+[2025-08-15 15:11:32.559] 🔵 [INFO] TestClass::testRequestInfo()
+    📝 Message: Request info test
+    🌐 Request: POST /test/uri
+
+[2025-08-15 15:11:32.593] 🔵 [INFO] TestClass::testDisabled()
+    📝 Message: This should not be logged
+    🌐 Request: POST /test/uri
+
+[2025-08-15 15:11:32.594] 🔴 [ERROR] TestClass::testDisabled()
+    📝 Message: This error should be logged
+    🌐 Request: POST /test/uri
+    📍 Stack Trace:
+        #1 LoggerTest.php:275 - Logger::error()
+        #2 TestRunner.php:70 - LoggerTest::testLogWhenDebugDisabled()
+        #3 TestRunner.php:54 - TestCase::runTest()
+        #4 TestRunner.php:309 - TestCase::runTests()
+
+
+================================================================================
+🚀 CLUBEMIX DEBUG SESSION INICIADA - 2025-08-15 15:11:39
+================================================================================
+📍 IP: unknown
+🌐 User Agent: unknown
+📄 Request URI: unknown
+🔧 Request Method: unknown
+================================================================================
+
+[2025-08-15 15:11:39.224] 🔵 [INFO] TestClass::testMethod()
+    📝 Message: Test info message
+    📊 Data: {
+    "key": "value"
+}
+    🌐 Request: unknown unknown
+
+[2025-08-15 15:11:39.266] 🟢 [SUCCESS] TestClass::testMethod()
+    📝 Message: Test success message
+    🌐 Request: unknown unknown
+
+[2025-08-15 15:11:39.296] 🔴 [ERROR] TestClass::testMethod()
+    📝 Message: Test error message
+    📊 Data: {
+    "error": "details"
+}
+    🌐 Request: unknown unknown
+    📍 Stack Trace:
+        #1 LoggerTest.php:102 - Logger::error()
+        #2 TestRunner.php:70 - LoggerTest::testErrorLog()
+        #3 TestRunner.php:54 - TestCase::runTest()
+        #4 TestRunner.php:309 - TestCase::runTests()
+
+[2025-08-15 15:11:39.325] 🐛 [DEBUG] TestClass::testMethod()
+    📝 Message: Test debug message
+    🌐 Request: unknown unknown
+    📍 Stack Trace:
+        #1 LoggerTest.php:115 - Logger::debug()
+        #2 TestRunner.php:70 - LoggerTest::testDebugLog()
+        #3 TestRunner.php:54 - TestCase::runTest()
+        #4 TestRunner.php:309 - TestCase::runTests()
+
+[2025-08-15 15:11:39.349] 📡 [API] ApiClass::processRequest()
+    📝 Message: API request processed
+    📊 Data: {
+    "method": "POST"
+}
+    🌐 Request: unknown unknown
+
+[2025-08-15 15:11:39.378] ✅ [VALIDATION] ValidatorClass::validate()
+    📝 Message: Validation passed
+    🌐 Request: unknown unknown
+
+[2025-08-15 15:11:39.405] 🔒 [SECURITY] SecurityClass::checkAuth()
+    📝 Message: Authentication check
+    📊 Data: {
+    "user_id": 123
+}
+    🌐 Request: unknown unknown
+
+[2025-08-15 15:11:39.434] 🔵 [INFO] TestClass::testMethod()
+    📝 Message: Test helper info
+    🌐 Request: unknown unknown
+
+[2025-08-15 15:11:39.440] 🟢 [SUCCESS] TestClass::testMethod()
+    📝 Message: Test helper success
+    🌐 Request: unknown unknown
+
+[2025-08-15 15:11:39.441] 🔴 [ERROR] TestClass::testMethod()
+    📝 Message: Test helper error
+    🌐 Request: unknown unknown
+    📍 Stack Trace:
+        #1 Logger.php:343 - Logger::error()
+        #2 LoggerTest.php:165 - logError()
+        #3 TestRunner.php:70 - LoggerTest::testGlobalHelperFunctions()
+        #4 TestRunner.php:54 - TestCase::runTest()
+
+[2025-08-15 15:11:39.441] 🐛 [DEBUG] TestClass::testMethod()
+    📝 Message: Test helper debug
+    🌐 Request: unknown unknown
+    📍 Stack Trace:
+        #1 Logger.php:348 - Logger::debug()
+        #2 LoggerTest.php:166 - logDebug()
+        #3 TestRunner.php:70 - LoggerTest::testGlobalHelperFunctions()
+        #4 TestRunner.php:54 - TestCase::runTest()
+
+[2025-08-15 15:11:39.486] 🔵 [INFO] TestClass::testComplexData()
+    📝 Message: Complex data test
+    📊 Data: {
+    "user": {
+        "id": 123,
+        "name": "Test User",
+        "roles": [
+            "admin",
+            "user"
+        ]
+    },
+    "request": {
+        "method": "POST",
+        "url": "\/api\/test"
+    }
+}
+    🌐 Request: unknown unknown
+
+[2025-08-15 15:11:39.515] 🔵 [INFO] TestClass::testTimestamp()
+    📝 Message: Timestamp test
+    🌐 Request: unknown unknown
+
+[2025-08-15 15:11:39.547] 🔵 [INFO] TestClass::testRequestInfo()
+    📝 Message: Request info test
+    🌐 Request: POST /test/uri
+
+[2025-08-15 15:11:39.594] 🔵 [INFO] TestClass::testDisabled()
+    📝 Message: This should not be logged
+    🌐 Request: POST /test/uri
+
+[2025-08-15 15:11:39.594] 🔴 [ERROR] TestClass::testDisabled()
+    📝 Message: This error should be logged
+    🌐 Request: POST /test/uri
+    📍 Stack Trace:
+        #1 LoggerTest.php:275 - Logger::error()
+        #2 TestRunner.php:70 - LoggerTest::testLogWhenDebugDisabled()
+        #3 TestRunner.php:54 - TestCase::runTest()
+        #4 TestRunner.php:309 - TestCase::runTests()
+
+[2025-08-15 15:35:16.904] 🔴 [ERROR] ClienteCadastroApi::__construct()
+    📝 Message: Método não permitido
+    📊 Data: {
+    "method": "GET",
+    "allowed": [
+        "POST"
+    ]
+}
+    🌐 Request: GET /ClubeMix/api/cliente/cadastro.php
+    📍 Stack Trace:
+        #1 Logger.php:343 - Logger::error()
+        #2 ApiBase.php:61 - logError()
+        #3 cadastro.php:355 - ApiBase::__construct()
+
+[2025-08-15 15:35:16.905] 🔴 [ERROR] ClienteCadastroApi::sendError()
+    📝 Message: Método não permitido
+    📊 Data: {
+    "code": 405,
+    "errors": null,
+    "method": "GET",
+    "request_data": []
+}
+    🌐 Request: GET /ClubeMix/api/cliente/cadastro.php
+    📍 Stack Trace:
+        #1 Logger.php:343 - Logger::error()
+        #2 ApiBase.php:162 - logError()
+        #3 ApiBase.php:65 - ApiBase::sendError()
+        #4 cadastro.php:355 - ApiBase::__construct()
+
+[2025-08-15 15:36:07.658] 🔴 [ERROR] AuthLoginApi::sendError()
+    📝 Message: Erro interno do servidor. Tente novamente em alguns minutos.
+    📊 Data: {
+    "code": 500,
+    "errors": null,
+    "method": "POST",
+    "request_data": {
+        "email": "adriano.ssouza@gmail.com",
+        "senha": "Teste@1234",
+        "lembrar": false
+    }
+}
+    🌐 Request: POST /ClubeMix/api/auth/login.php
+    📍 Stack Trace:
+        #1 Logger.php:343 - Logger::error()
+        #2 ApiBase.php:162 - logError()
+        #3 login.php:138 - ApiBase::sendError()
+        #4 login.php:27 - AuthLoginApi::fazerLogin()
+
+[2025-08-15 21:09:05.232] 🔴 [ERROR] AuthLoginApi::buscarUsuarioPorEmail()
+    📝 Message: Erro ao buscar usuário
+    📊 Data: {
+    "email": "adriano.ssouza@gmail.com",
+    "error": "Erro ao executar consulta"
+}
+    🌐 Request: POST /ClubeMix/api/auth/login.php
+    📍 Stack Trace:
+        #1 Logger.php:343 - Logger::error()
+        #2 login.php:197 - logError()
+        #3 login.php:67 - AuthLoginApi::buscarUsuarioPorEmail()
+        #4 login.php:27 - AuthLoginApi::fazerLogin()
+
+[2025-08-15 21:09:05.233] 🔴 [ERROR] AuthLoginApi::sendError()
+    📝 Message: Erro interno do servidor. Tente novamente em alguns minutos.
+    📊 Data: {
+    "code": 500,
+    "errors": null,
+    "method": "POST",
+    "request_data": {
+        "email": "adriano.ssouza@gmail.com",
+        "senha": "Teste@1234",
+        "lembrar": false
+    }
+}
+    🌐 Request: POST /ClubeMix/api/auth/login.php
+    📍 Stack Trace:
+        #1 Logger.php:343 - Logger::error()
+        #2 ApiBase.php:162 - logError()
+        #3 login.php:138 - ApiBase::sendError()
+        #4 login.php:27 - AuthLoginApi::fazerLogin()
+
+[2025-08-15 21:12:51.967] 🔴 [ERROR] AuthLoginApi::__construct()
+    📝 Message: Método não permitido
+    📊 Data: {
+    "method": "GET",
+    "allowed": [
+        "POST"
+    ]
+}
+    🌐 Request: GET /ClubeMix/api/auth/login.php
+    📍 Stack Trace:
+        #1 Logger.php:343 - Logger::error()
+        #2 ApiBase.php:61 - logError()
+        #3 login.php:347 - ApiBase::__construct()
+
+[2025-08-15 21:12:51.967] 🔴 [ERROR] AuthLoginApi::sendError()
+    📝 Message: Método não permitido
+    📊 Data: {
+    "code": 405,
+    "errors": null,
+    "method": "GET",
+    "request_data": []
+}
+    🌐 Request: GET /ClubeMix/api/auth/login.php
+    📍 Stack Trace:
+        #1 Logger.php:343 - Logger::error()
+        #2 ApiBase.php:162 - logError()
+        #3 ApiBase.php:65 - ApiBase::sendError()
+        #4 login.php:347 - ApiBase::__construct()
+
+[2025-08-15 21:12:58.359] 🔴 [ERROR] AuthLoginApi::buscarUsuarioPorEmail()
+    📝 Message: Erro ao buscar usuário
+    📊 Data: {
+    "email": "adriano.ssouza@gmail.com",
+    "error": "Erro ao executar consulta"
+}
+    🌐 Request: POST /ClubeMix/api/auth/login.php
+    📍 Stack Trace:
+        #1 Logger.php:343 - Logger::error()
+        #2 login.php:197 - logError()
+        #3 login.php:67 - AuthLoginApi::buscarUsuarioPorEmail()
+        #4 login.php:27 - AuthLoginApi::fazerLogin()
+
+[2025-08-15 21:12:58.361] 🔴 [ERROR] AuthLoginApi::sendError()
+    📝 Message: Erro interno do servidor. Tente novamente em alguns minutos.
+    📊 Data: {
+    "code": 500,
+    "errors": null,
+    "method": "POST",
+    "request_data": {
+        "email": "adriano.ssouza@gmail.com",
+        "senha": "Teste@1234",
+        "lembrar": false
+    }
+}
+    🌐 Request: POST /ClubeMix/api/auth/login.php
+    📍 Stack Trace:
+        #1 Logger.php:343 - Logger::error()
+        #2 ApiBase.php:162 - logError()
+        #3 login.php:138 - ApiBase::sendError()
+        #4 login.php:27 - AuthLoginApi::fazerLogin()
+
+[2025-08-15 21:19:45.213] 🔴 [ERROR] AuthLoginApi::__construct()
+    📝 Message: Método não permitido
+    📊 Data: {
+    "method": "GET",
+    "allowed": [
+        "POST"
+    ]
+}
+    🌐 Request: unknown unknown
+    📍 Stack Trace:
+        #1 Logger.php:343 - Logger::error()
+        #2 ApiBase.php:61 - logError()
+        #3 login.php:352 - ApiBase::__construct()
+        #4 Command line code:1 - require()
+
+[2025-08-15 21:19:45.214] 🔴 [ERROR] AuthLoginApi::sendError()
+    📝 Message: Método não permitido
+    📊 Data: {
+    "code": 405,
+    "errors": null,
+    "method": "GET",
+    "request_data": []
+}
+    🌐 Request: unknown unknown
+    📍 Stack Trace:
+        #1 Logger.php:343 - Logger::error()
+        #2 ApiBase.php:162 - logError()
+        #3 ApiBase.php:65 - ApiBase::sendError()
+        #4 login.php:352 - ApiBase::__construct()
+
+
+================================================================================
+🚀 CLUBEMIX DEBUG SESSION INICIADA - 2025-08-15 22:02:06
+================================================================================
+📍 IP: ::1
+🌐 User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+📄 Request URI: /ClubeMix/run_tests.php
+🔧 Request Method: GET
+================================================================================
+
+[2025-08-15 22:02:06.508] 🔵 [INFO] TestClass::testMethod()
+    📝 Message: Test info message
+    📊 Data: {
+    "key": "value"
+}
+    🌐 Request: GET /ClubeMix/run_tests.php
+
+[2025-08-15 22:02:06.526] 🟢 [SUCCESS] TestClass::testMethod()
+    📝 Message: Test success message
+    🌐 Request: GET /ClubeMix/run_tests.php
+
+[2025-08-15 22:02:06.529] 🔴 [ERROR] TestClass::testMethod()
+    📝 Message: Test error message
+    📊 Data: {
+    "error": "details"
+}
+    🌐 Request: GET /ClubeMix/run_tests.php
+    📍 Stack Trace:
+        #1 LoggerTest.php:102 - Logger::error()
+        #2 TestRunner.php:70 - LoggerTest::testErrorLog()
+        #3 TestRunner.php:54 - TestCase::runTest()
+        #4 TestRunner.php:309 - TestCase::runTests()
+
+[2025-08-15 22:02:06.534] 🐛 [DEBUG] TestClass::testMethod()
+    📝 Message: Test debug message
+    🌐 Request: GET /ClubeMix/run_tests.php
+    📍 Stack Trace:
+        #1 LoggerTest.php:115 - Logger::debug()
+        #2 TestRunner.php:70 - LoggerTest::testDebugLog()
+        #3 TestRunner.php:54 - TestCase::runTest()
+        #4 TestRunner.php:309 - TestCase::runTests()
+
+[2025-08-15 22:02:06.537] 📡 [API] ApiClass::processRequest()
+    📝 Message: API request processed
+    📊 Data: {
+    "method": "POST"
+}
+    🌐 Request: GET /ClubeMix/run_tests.php
+
+[2025-08-15 22:02:06.539] ✅ [VALIDATION] ValidatorClass::validate()
+    📝 Message: Validation passed
+    🌐 Request: GET /ClubeMix/run_tests.php
+
+[2025-08-15 22:02:06.542] 🔒 [SECURITY] SecurityClass::checkAuth()
+    📝 Message: Authentication check
+    📊 Data: {
+    "user_id": 123
+}
+    🌐 Request: GET /ClubeMix/run_tests.php
+
+[2025-08-15 22:02:06.545] 🔵 [INFO] TestClass::testMethod()
+    📝 Message: Test helper info
+    🌐 Request: GET /ClubeMix/run_tests.php
+
+[2025-08-15 22:02:06.545] 🟢 [SUCCESS] TestClass::testMethod()
+    📝 Message: Test helper success
+    🌐 Request: GET /ClubeMix/run_tests.php
+
+[2025-08-15 22:02:06.548] 🔴 [ERROR] TestClass::testMethod()
+    📝 Message: Test helper error
+    🌐 Request: GET /ClubeMix/run_tests.php
+    📍 Stack Trace:
+        #1 Logger.php:343 - Logger::error()
+        #2 LoggerTest.php:165 - logError()
+        #3 TestRunner.php:70 - LoggerTest::testGlobalHelperFunctions()
+        #4 TestRunner.php:54 - TestCase::runTest()
+
+[2025-08-15 22:02:06.549] 🐛 [DEBUG] TestClass::testMethod()
+    📝 Message: Test helper debug
+    🌐 Request: GET /ClubeMix/run_tests.php
+    📍 Stack Trace:
+        #1 Logger.php:348 - Logger::debug()
+        #2 LoggerTest.php:166 - logDebug()
+        #3 TestRunner.php:70 - LoggerTest::testGlobalHelperFunctions()
+        #4 TestRunner.php:54 - TestCase::runTest()
+
+[2025-08-15 22:02:06.552] 🔵 [INFO] TestClass::testComplexData()
+    📝 Message: Complex data test
+    📊 Data: {
+    "user": {
+        "id": 123,
+        "name": "Test User",
+        "roles": [
+            "admin",
+            "user"
+        ]
+    },
+    "request": {
+        "method": "POST",
+        "url": "\/api\/test"
+    }
+}
+    🌐 Request: GET /ClubeMix/run_tests.php
+
+[2025-08-15 22:02:06.554] 🔵 [INFO] TestClass::testTimestamp()
+    📝 Message: Timestamp test
+    🌐 Request: GET /ClubeMix/run_tests.php
+
+[2025-08-15 22:02:06.557] 🔵 [INFO] TestClass::testRequestInfo()
+    📝 Message: Request info test
+    🌐 Request: POST /test/uri
+
+[2025-08-15 22:02:06.567] 🔵 [INFO] TestClass::testDisabled()
+    📝 Message: This should not be logged
+    🌐 Request: POST /test/uri
+
+[2025-08-15 22:02:06.568] 🔴 [ERROR] TestClass::testDisabled()
+    📝 Message: This error should be logged
+    🌐 Request: POST /test/uri
+    📍 Stack Trace:
+        #1 LoggerTest.php:275 - Logger::error()
+        #2 TestRunner.php:70 - LoggerTest::testLogWhenDebugDisabled()
+        #3 TestRunner.php:54 - TestCase::runTest()
+        #4 TestRunner.php:309 - TestCase::runTests()
+
+[2025-08-15 22:03:10.133] 🔴 [ERROR] ClienteCadastroApi::__construct()
+    📝 Message: Método não permitido
+    📊 Data: {
+    "method": "GET",
+    "allowed": [
+        "POST"
+    ]
+}
+    🌐 Request: GET /ClubeMix/api/cliente/cadastro.php
+    📍 Stack Trace:
+        #1 Logger.php:343 - Logger::error()
+        #2 ApiBase.php:61 - logError()
+        #3 cadastro.php:355 - ApiBase::__construct()
+
+[2025-08-15 22:03:10.134] 🔴 [ERROR] ClienteCadastroApi::sendError()
+    📝 Message: Método não permitido
+    📊 Data: {
+    "code": 405,
+    "errors": null,
+    "method": "GET",
+    "request_data": []
+}
+    🌐 Request: GET /ClubeMix/api/cliente/cadastro.php
+    📍 Stack Trace:
+        #1 Logger.php:343 - Logger::error()
+        #2 ApiBase.php:162 - logError()
+        #3 ApiBase.php:65 - ApiBase::sendError()
+        #4 cadastro.php:355 - ApiBase::__construct()
+
+[2025-08-15 22:03:11.142] 🔴 [ERROR] ClienteCadastroApi::validateRequired()
+    📝 Message: Validação falhou
+    📊 Data: {
+    "nome_completo": "Campo nome_completo é obrigatório",
+    "cpf": "Campo cpf é obrigatório",
+    "email": "Campo email é obrigatório",
+    "whatsapp": "Campo whatsapp é obrigatório",
+    "data_nascimento": "Campo data_nascimento é obrigatório",
+    "cep": "Campo cep é obrigatório",
+    "rua": "Campo rua é obrigatório",
+    "numero": "Campo numero é obrigatório",
+    "bairro": "Campo bairro é obrigatório",
+    "cidade": "Campo cidade é obrigatório",
+    "estado": "Campo estado é obrigatório",
+    "senha": "Campo senha é obrigatório"
+}
+    🌐 Request: POST /ClubeMix/api/cliente/cadastro.php
+    📍 Stack Trace:
+        #1 Logger.php:343 - Logger::error()
+        #2 ApiBase.php:212 - logError()
+        #3 cadastro.php:149 - ApiBase::validateRequired()
+        #4 cadastro.php:60 - ClienteCadastroApi::validateClientData()
+
+[2025-08-15 22:03:11.142] 🔴 [ERROR] ClienteCadastroApi::sendError()
+    📝 Message: Dados inválidos
+    📊 Data: {
+    "code": 400,
+    "errors": {
+        "nome_completo": "Campo nome_completo é obrigatório",
+        "cpf": "Campo cpf é obrigatório",
+        "email": "Campo email é obrigatório",
+        "whatsapp": "Campo whatsapp é obrigatório",
+        "data_nascimento": "Campo data_nascimento é obrigatório",
+        "cep": "Campo cep é obrigatório",
+        "rua": "Campo rua é obrigatório",
+        "numero": "Campo numero é obrigatório",
+        "bairro": "Campo bairro é obrigatório",
+        "cidade": "Campo cidade é obrigatório",
+        "estado": "Campo estado é obrigatório",
+        "senha": "Campo senha é obrigatório"
+    },
+    "method": "POST",
+    "request_data": {
+        "test": "data"
+    }
+}
+    🌐 Request: POST /ClubeMix/api/cliente/cadastro.php
+    📍 Stack Trace:
+        #1 Logger.php:343 - Logger::error()
+        #2 ApiBase.php:162 - logError()
+        #3 cadastro.php:63 - ApiBase::sendError()
+        #4 cadastro.php:27 - ClienteCadastroApi::cadastrarCliente()
+
+
+================================================================================
+🚀 CLUBEMIX DEBUG SESSION INICIADA - 2025-08-15 22:04:24
+================================================================================
+📍 IP: ::1
+🌐 User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+📄 Request URI: /ClubeMix/api/auth/login.php
+🔧 Request Method: POST
+================================================================================
+
+[2025-08-15 22:04:24.772] 🐛 [DEBUG] AuthLoginApi::__construct()
+    📝 Message: Iniciando construção da API
+    🌐 Request: POST /ClubeMix/api/auth/login.php
+    📍 Stack Trace:
+        #1 Logger.php:348 - Logger::debug()
+        #2 ApiBase.php:35 - logDebug()
+        #3 login.php:365 - ApiBase::__construct()
+
+[2025-08-15 22:04:24.773] 🐛 [DEBUG] AuthLoginApi::__construct()
+    📝 Message: Headers CORS configurados
+    🌐 Request: POST /ClubeMix/api/auth/login.php
+    📍 Stack Trace:
+        #1 Logger.php:348 - Logger::debug()
+        #2 ApiBase.php:39 - logDebug()
+        #3 login.php:365 - ApiBase::__construct()
+
+[2025-08-15 22:04:24.776] 🐛 [DEBUG] AuthLoginApi::__construct()
+    📝 Message: Conexão com banco obtida
+    🌐 Request: POST /ClubeMix/api/auth/login.php
+    📍 Stack Trace:
+        #1 Logger.php:348 - Logger::debug()
+        #2 ApiBase.php:43 - logDebug()
+        #3 login.php:365 - ApiBase::__construct()
+
+[2025-08-15 22:04:24.777] 🐛 [DEBUG] AuthLoginApi::__construct()
+    📝 Message: Dados da requisição obtidos
+    📊 Data: {
+    "method": "POST",
+    "headers": [
+        "Host",
+        "Connection",
+        "Content-Length",
+        "Pragma",
+        "Cache-Control",
+        "sec-ch-ua-platform",
+        "sec-ch-ua",
+        "sec-ch-ua-mobile",
+        "X-Requested-With",
+        "User-Agent",
+        "Accept",
+        "DNT",
+        "Content-Type",
+        "Origin",
+        "Sec-Fetch-Site",
+        "Sec-Fetch-Mode",
+        "Sec-Fetch-Dest",
+        "Referer",
+        "Accept-Encoding",
+        "Accept-Language",
+        "Cookie"
+    ]
+}
+    🌐 Request: POST /ClubeMix/api/auth/login.php
+    📍 Stack Trace:
+        #1 Logger.php:348 - Logger::debug()
+        #2 ApiBase.php:48 - logDebug()
+        #3 login.php:365 - ApiBase::__construct()
+
+[2025-08-15 22:04:24.778] 🐛 [DEBUG] AuthLoginApi::__construct()
+    📝 Message: Dados da requisição processados
+    📊 Data: {
+    "request_size": 3
+}
+    🌐 Request: POST /ClubeMix/api/auth/login.php
+    📍 Stack Trace:
+        #1 Logger.php:348 - Logger::debug()
+        #2 ApiBase.php:55 - logDebug()
+        #3 login.php:365 - ApiBase::__construct()
+
+[2025-08-15 22:04:24.778] 🟢 [SUCCESS] AuthLoginApi::__construct()
+    📝 Message: API inicializada com sucesso
+    🌐 Request: POST /ClubeMix/api/auth/login.php
+
+[2025-08-15 22:04:24.779] 📡 [API] AuthLoginApi::processRequest()
+    📝 Message: Processando requisição de login
+    📊 Data: {
+    "method": "POST"
+}
+    🌐 Request: POST /ClubeMix/api/auth/login.php
+
+[2025-08-15 22:04:24.779] 🔵 [INFO] AuthLoginApi::fazerLogin()
+    📝 Message: Iniciando processo de login
+    🌐 Request: POST /ClubeMix/api/auth/login.php
+
+[2025-08-15 22:04:24.780] 🔒 [SECURITY] AuthLoginApi::fazerLogin()
+    📝 Message: Verificando proteção contra força bruta
+    📊 Data: {
+    "ip": "::1"
+}
+    🌐 Request: POST /ClubeMix/api/auth/login.php
+
+[2025-08-15 22:04:24.781] ✅ [VALIDATION] AuthLoginApi::fazerLogin()
+    📝 Message: Sanitizando dados de entrada
+    📊 Data: {
+    "raw_data_keys": [
+        "email",
+        "senha",
+        "lembrar"
+    ]
+}
+    🌐 Request: POST /ClubeMix/api/auth/login.php
+
+[2025-08-15 22:04:24.782] ✅ [VALIDATION] AuthLoginApi::fazerLogin()
+    📝 Message: Iniciando validação de dados
+    🌐 Request: POST /ClubeMix/api/auth/login.php
+
+[2025-08-15 22:04:24.782] ✅ [VALIDATION] AuthLoginApi::validateRequired()
+    📝 Message: Validando campos obrigatórios
+    📊 Data: {
+    "fields": [
+        "email",
+        "senha"
+    ],
+    "data_keys": [
+        "email",
+        "senha",
+        "lembrar"
+    ]
+}
+    🌐 Request: POST /ClubeMix/api/auth/login.php
+
+[2025-08-15 22:04:24.783] 🟢 [SUCCESS] AuthLoginApi::validateRequired()
+    📝 Message: Todos os campos obrigatórios estão presentes
+    🌐 Request: POST /ClubeMix/api/auth/login.php
+
+[2025-08-15 22:04:24.783] 🐛 [DEBUG] AuthLoginApi::buscarUsuarioPorEmail()
+    📝 Message: Buscando usuário por email
+    📊 Data: {
+    "email": "adriano.ssouza@gmail.com"
+}
+    🌐 Request: POST /ClubeMix/api/auth/login.php
+    📍 Stack Trace:
+        #1 Logger.php:348 - Logger::debug()
+        #2 login.php:189 - logDebug()
+        #3 login.php:67 - AuthLoginApi::buscarUsuarioPorEmail()
+        #4 login.php:27 - AuthLoginApi::fazerLogin()
+
+[2025-08-15 22:04:24.785] 🐛 [DEBUG] AuthLoginApi::buscarUsuarioPorEmail()
+    📝 Message: Resultado da busca
+    📊 Data: {
+    "email": "adriano.ssouza@gmail.com",
+    "result_count": 1,
+    "result": [
+        "id",
+        "uuid",
+        "email",
+        "senha",
+        "tipo_usuario",
+        "status",
+        "ultimo_login_sucesso"
+    ]
+}
+    🌐 Request: POST /ClubeMix/api/auth/login.php
+    📍 Stack Trace:
+        #1 Logger.php:348 - Logger::debug()
+        #2 login.php:198 - logDebug()
+        #3 login.php:67 - AuthLoginApi::buscarUsuarioPorEmail()
+        #4 login.php:27 - AuthLoginApi::fazerLogin()
+
+[2025-08-15 22:04:24.918] 🐛 [DEBUG] AuthLoginApi::gerarTokenSessao()
+    📝 Message: Gerando token de sessão
+    📊 Data: {
+    "usuario_id": 1,
+    "lembrar": ""
+}
+    🌐 Request: POST /ClubeMix/api/auth/login.php
+    📍 Stack Trace:
+        #1 Logger.php:348 - Logger::debug()
+        #2 login.php:264 - logDebug()
+        #3 login.php:106 - AuthLoginApi::gerarTokenSessao()
+        #4 login.php:27 - AuthLoginApi::fazerLogin()
+
+[2025-08-15 22:04:24.925] 🐛 [DEBUG] AuthLoginApi::gerarTokenSessao()
+    📝 Message: Token gerado com sucesso
+    📊 Data: {
+    "usuario_id": 1,
+    "token_length": 64
+}
+    🌐 Request: POST /ClubeMix/api/auth/login.php
+    📍 Stack Trace:
+        #1 Logger.php:348 - Logger::debug()
+        #2 login.php:288 - logDebug()
+        #3 login.php:106 - AuthLoginApi::gerarTokenSessao()
+        #4 login.php:27 - AuthLoginApi::fazerLogin()
+
+[2025-08-15 22:04:24.925] 🐛 [DEBUG] AuthLoginApi::registrarLogin()
+    📝 Message: Registrando tentativa de login
+    📊 Data: {
+    "usuario_id": 1,
+    "ip": "::1",
+    "sucesso": true
+}
+    🌐 Request: POST /ClubeMix/api/auth/login.php
+    📍 Stack Trace:
+        #1 Logger.php:348 - Logger::debug()
+        #2 login.php:308 - logDebug()
+        #3 login.php:109 - AuthLoginApi::registrarLogin()
+        #4 login.php:27 - AuthLoginApi::fazerLogin()
+
+[2025-08-15 22:04:24.953] 🐛 [DEBUG] AuthLoginApi::registrarLogin()
+    📝 Message: Tentativa de login registrada com sucesso
+    📊 Data: {
+    "usuario_id": 1,
+    "sucesso": true
+}
+    🌐 Request: POST /ClubeMix/api/auth/login.php
+    📍 Stack Trace:
+        #1 Logger.php:348 - Logger::debug()
+        #2 login.php:338 - logDebug()
+        #3 login.php:109 - AuthLoginApi::registrarLogin()
+        #4 login.php:27 - AuthLoginApi::fazerLogin()
+
+[2025-08-15 22:04:24.953] 🟢 [SUCCESS] AuthLoginApi::fazerLogin()
+    📝 Message: Login realizado com sucesso
+    📊 Data: {
+    "usuario_id": 1,
+    "tipo_usuario": "cliente"
+}
+    🌐 Request: POST /ClubeMix/api/auth/login.php
+
+[2025-08-15 22:04:24.954] 🟢 [SUCCESS] AuthLoginApi::sendSuccess()
+    📝 Message: Login realizado com sucesso!
+    📊 Data: {
+    "code": 200,
+    "has_data": true,
+    "data_type": "array"
+}
+    🌐 Request: POST /ClubeMix/api/auth/login.php
+
+[2025-08-15 22:04:24.954] 📡 [API] AuthLoginApi::sendSuccess()
+    📝 Message: Enviando resposta de sucesso
+    📊 Data: {
+    "success": true,
+    "message": "Login realizado com sucesso!",
+    "timestamp": "2025-08-15 22:04:24",
+    "data": {
+        "token": "30143764348360be0634db50afe3ff3dac4a00cd43b5131456706e9508641cbe",
+        "usuario": {
+            "id": 1,
+            "uuid": "b9fed437-78e9-4591-afb7-8275e6a70682",
+            "email": "adriano.ssouza@gmail.com",
+            "tipo_usuario": "cliente",
+            "status": "pendente",
+            "ultimo_login": "2025-08-16 00:40:16"
+        },
+        "dados_completos": {
+            "tipo": "cliente",
+            "dados": {
+                "id": 1,
+                "usuario_id": 1,
+                "nome_completo": "Adriano da Silva Souza",
+                "cpf": "30972595899",
+                "data_nascimento": "1989-10-17",
+                "whatsapp": "11984512298",
+                "cep": "01032001",
+                "rua": "Rua Brigadeiro Tobias",
+                "numero": "613",
+                "complemento": "apto 13",
+                "bairro": "Centro",
+                "cidade": "São Paulo",
+                "estado": "SP",
+                "codigo_indicacao": "CM313751",
+                "codigo_indicador": null,
+                "nivel_afiliacao": 0,
+                "saldo_disponivel": "0.00",
+                "total_ganho": "0.00",
+                "criado_em": "2025-08-15 17:47:51",
+                "atualizado_em": "2025-08-15 17:47:51",
+                "email": "adriano.ssouza@gmail.com",
+                "tipo_usuario": "cliente",
+                "status": "pendente"
+            }
+        },
+        "redirect_url": "\/dashboard.php"
+    }
+}
+    🌐 Request: POST /ClubeMix/api/auth/login.php
+
+
+================================================================================
+🚀 CLUBEMIX DEBUG SESSION INICIADA - 2025-08-15 22:12:05
+================================================================================
+📍 IP: ::1
+🌐 User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+📄 Request URI: /ClubeMix/api/cliente/cadastro.php
+🔧 Request Method: GET
+================================================================================
+
+[2025-08-15 22:12:05.825] 🐛 [DEBUG] ClienteCadastroApi::__construct()
+    📝 Message: Iniciando construção da API
+    🌐 Request: GET /ClubeMix/api/cliente/cadastro.php
+    📍 Stack Trace:
+        #1 Logger.php:348 - Logger::debug()
+        #2 ApiBase.php:35 - logDebug()
+        #3 cadastro.php:355 - ApiBase::__construct()
+
+[2025-08-15 22:12:05.826] 🐛 [DEBUG] ClienteCadastroApi::__construct()
+    📝 Message: Dados da requisição obtidos
+    📊 Data: {
+    "method": "GET",
+    "headers": [
+        "Host",
+        "Connection",
+        "sec-ch-ua-platform",
+        "X-Requested-With",
+        "User-Agent",
+        "Accept",
+        "sec-ch-ua",
+        "DNT",
+        "sec-ch-ua-mobile",
+        "Sec-Fetch-Site",
+        "Sec-Fetch-Mode",
+        "Sec-Fetch-Dest",
+        "Referer",
+        "Accept-Encoding",
+        "Accept-Language",
+        "Cookie"
+    ]
+}
+    🌐 Request: GET /ClubeMix/api/cliente/cadastro.php
+    📍 Stack Trace:
+        #1 Logger.php:348 - Logger::debug()
+        #2 ApiBase.php:40 - logDebug()
+        #3 cadastro.php:355 - ApiBase::__construct()
+
+[2025-08-15 22:12:05.826] 🐛 [DEBUG] ClienteCadastroApi::__construct()
+    📝 Message: Dados da requisição processados
+    📊 Data: {
+    "request_size": 0
+}
+    🌐 Request: GET /ClubeMix/api/cliente/cadastro.php
+    📍 Stack Trace:
+        #1 Logger.php:348 - Logger::debug()
+        #2 ApiBase.php:47 - logDebug()
+        #3 cadastro.php:355 - ApiBase::__construct()
+
+[2025-08-15 22:12:05.827] 🔴 [ERROR] ClienteCadastroApi::__construct()
+    📝 Message: Método não permitido
+    📊 Data: {
+    "method": "GET",
+    "allowed": [
+        "POST"
+    ]
+}
+    🌐 Request: GET /ClubeMix/api/cliente/cadastro.php
+    📍 Stack Trace:
+        #1 Logger.php:343 - Logger::error()
+        #2 ApiBase.php:53 - logError()
+        #3 cadastro.php:355 - ApiBase::__construct()
+
+[2025-08-15 22:12:05.827] 🔴 [ERROR] ClienteCadastroApi::sendError()
+    📝 Message: Método não permitido
+    📊 Data: {
+    "code": 405,
+    "errors": null,
+    "method": "GET",
+    "request_data": []
+}
+    🌐 Request: GET /ClubeMix/api/cliente/cadastro.php
+    📍 Stack Trace:
+        #1 Logger.php:343 - Logger::error()
+        #2 ApiBase.php:170 - logError()
+        #3 ApiBase.php:57 - ApiBase::sendError()
+        #4 cadastro.php:355 - ApiBase::__construct()
+
+[2025-08-15 22:12:05.828] 📡 [API] ClienteCadastroApi::sendError()
+    📝 Message: Enviando resposta de erro
+    📊 Data: {
+    "success": false,
+    "message": "Método não permitido",
+    "timestamp": "2025-08-15 22:12:05",
+    "errors": null
+}
+    🌐 Request: GET /ClubeMix/api/cliente/cadastro.php
+
+
+================================================================================
+🚀 CLUBEMIX DEBUG SESSION INICIADA - 2025-08-15 22:12:06
+================================================================================
+📍 IP: ::1
+🌐 User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+📄 Request URI: /ClubeMix/api/cliente/cadastro.php
+🔧 Request Method: POST
+================================================================================
+
+[2025-08-15 22:12:06.829] 🐛 [DEBUG] ClienteCadastroApi::__construct()
+    📝 Message: Iniciando construção da API
+    🌐 Request: POST /ClubeMix/api/cliente/cadastro.php
+    📍 Stack Trace:
+        #1 Logger.php:348 - Logger::debug()
+        #2 ApiBase.php:35 - logDebug()
+        #3 cadastro.php:355 - ApiBase::__construct()
+
+[2025-08-15 22:12:06.829] 🐛 [DEBUG] ClienteCadastroApi::__construct()
+    📝 Message: Dados da requisição obtidos
+    📊 Data: {
+    "method": "POST",
+    "headers": [
+        "Host",
+        "Connection",
+        "Content-Length",
+        "sec-ch-ua-platform",
+        "sec-ch-ua",
+        "sec-ch-ua-mobile",
+        "X-Requested-With",
+        "User-Agent",
+        "Accept",
+        "DNT",
+        "Content-Type",
+        "Origin",
+        "Sec-Fetch-Site",
+        "Sec-Fetch-Mode",
+        "Sec-Fetch-Dest",
+        "Referer",
+        "Accept-Encoding",
+        "Accept-Language",
+        "Cookie"
+    ]
+}
+    🌐 Request: POST /ClubeMix/api/cliente/cadastro.php
+    📍 Stack Trace:
+        #1 Logger.php:348 - Logger::debug()
+        #2 ApiBase.php:40 - logDebug()
+        #3 cadastro.php:355 - ApiBase::__construct()
+
+[2025-08-15 22:12:06.830] 🐛 [DEBUG] ClienteCadastroApi::__construct()
+    📝 Message: Dados da requisição processados
+    📊 Data: {
+    "request_size": 1
+}
+    🌐 Request: POST /ClubeMix/api/cliente/cadastro.php
+    📍 Stack Trace:
+        #1 Logger.php:348 - Logger::debug()
+        #2 ApiBase.php:47 - logDebug()
+        #3 cadastro.php:355 - ApiBase::__construct()
+
+[2025-08-15 22:12:06.833] 🐛 [DEBUG] ClienteCadastroApi::__construct()
+    📝 Message: Conexão com banco obtida
+    🌐 Request: POST /ClubeMix/api/cliente/cadastro.php
+    📍 Stack Trace:
+        #1 Logger.php:348 - Logger::debug()
+        #2 ApiBase.php:62 - logDebug()
+        #3 cadastro.php:355 - ApiBase::__construct()
+
+[2025-08-15 22:12:06.834] 🟢 [SUCCESS] ClienteCadastroApi::__construct()
+    📝 Message: API inicializada com sucesso
+    🌐 Request: POST /ClubeMix/api/cliente/cadastro.php
+
+[2025-08-15 22:12:06.834] 📡 [API] ClienteCadastroApi::processRequest()
+    📝 Message: Processando requisição
+    📊 Data: {
+    "method": "POST"
+}
+    🌐 Request: POST /ClubeMix/api/cliente/cadastro.php
+
+[2025-08-15 22:12:06.834] 🔵 [INFO] ClienteCadastroApi::cadastrarCliente()
+    📝 Message: Iniciando cadastro de cliente
+    🌐 Request: POST /ClubeMix/api/cliente/cadastro.php
+
+[2025-08-15 22:12:06.835] 🔒 [SECURITY] ClienteCadastroApi::cadastrarCliente()
+    📝 Message: Verificando proteção contra força bruta
+    📊 Data: {
+    "ip": "::1"
+}
+    🌐 Request: POST /ClubeMix/api/cliente/cadastro.php
+
+[2025-08-15 22:12:06.838] ✅ [VALIDATION] ClienteCadastroApi::cadastrarCliente()
+    📝 Message: Sanitizando dados de entrada
+    📊 Data: {
+    "raw_data_keys": [
+        "test"
+    ]
+}
+    🌐 Request: POST /ClubeMix/api/cliente/cadastro.php
+
+[2025-08-15 22:12:06.838] ✅ [VALIDATION] ClienteCadastroApi::cadastrarCliente()
+    📝 Message: Iniciando validação de dados
+    🌐 Request: POST /ClubeMix/api/cliente/cadastro.php
+
+[2025-08-15 22:12:06.839] ✅ [VALIDATION] ClienteCadastroApi::validateRequired()
+    📝 Message: Validando campos obrigatórios
+    📊 Data: {
+    "fields": [
+        "nome_completo",
+        "cpf",
+        "email",
+        "whatsapp",
+        "data_nascimento",
+        "cep",
+        "rua",
+        "numero",
+        "bairro",
+        "cidade",
+        "estado",
+        "senha"
+    ],
+    "data_keys": [
+        "test"
+    ]
+}
+    🌐 Request: POST /ClubeMix/api/cliente/cadastro.php
+
+[2025-08-15 22:12:06.839] ✅ [VALIDATION] ClienteCadastroApi::validateRequired()
+    📝 Message: Campo obrigatório ausente: nome_completo
+    🌐 Request: POST /ClubeMix/api/cliente/cadastro.php
+
+[2025-08-15 22:12:06.840] ✅ [VALIDATION] ClienteCadastroApi::validateRequired()
+    📝 Message: Campo obrigatório ausente: cpf
+    🌐 Request: POST /ClubeMix/api/cliente/cadastro.php
+
+[2025-08-15 22:12:06.841] ✅ [VALIDATION] ClienteCadastroApi::validateRequired()
+    📝 Message: Campo obrigatório ausente: email
+    🌐 Request: POST /ClubeMix/api/cliente/cadastro.php
+
+[2025-08-15 22:12:06.841] ✅ [VALIDATION] ClienteCadastroApi::validateRequired()
+    📝 Message: Campo obrigatório ausente: whatsapp
+    🌐 Request: POST /ClubeMix/api/cliente/cadastro.php
+
+[2025-08-15 22:12:06.842] ✅ [VALIDATION] ClienteCadastroApi::validateRequired()
+    📝 Message: Campo obrigatório ausente: data_nascimento
+    🌐 Request: POST /ClubeMix/api/cliente/cadastro.php
+
+[2025-08-15 22:12:06.842] ✅ [VALIDATION] ClienteCadastroApi::validateRequired()
+    📝 Message: Campo obrigatório ausente: cep
+    🌐 Request: POST /ClubeMix/api/cliente/cadastro.php
+
+[2025-08-15 22:12:06.843] ✅ [VALIDATION] ClienteCadastroApi::validateRequired()
+    📝 Message: Campo obrigatório ausente: rua
+    🌐 Request: POST /ClubeMix/api/cliente/cadastro.php
+
+[2025-08-15 22:12:06.843] ✅ [VALIDATION] ClienteCadastroApi::validateRequired()
+    📝 Message: Campo obrigatório ausente: numero
+    🌐 Request: POST /ClubeMix/api/cliente/cadastro.php
+
+[2025-08-15 22:12:06.844] ✅ [VALIDATION] ClienteCadastroApi::validateRequired()
+    📝 Message: Campo obrigatório ausente: bairro
+    🌐 Request: POST /ClubeMix/api/cliente/cadastro.php
+
+[2025-08-15 22:12:06.845] ✅ [VALIDATION] ClienteCadastroApi::validateRequired()
+    📝 Message: Campo obrigatório ausente: cidade
+    🌐 Request: POST /ClubeMix/api/cliente/cadastro.php
+
+[2025-08-15 22:12:06.845] ✅ [VALIDATION] ClienteCadastroApi::validateRequired()
+    📝 Message: Campo obrigatório ausente: estado
+    🌐 Request: POST /ClubeMix/api/cliente/cadastro.php
+
+[2025-08-15 22:12:06.846] ✅ [VALIDATION] ClienteCadastroApi::validateRequired()
+    📝 Message: Campo obrigatório ausente: senha
+    🌐 Request: POST /ClubeMix/api/cliente/cadastro.php
+
+[2025-08-15 22:12:06.846] 🔴 [ERROR] ClienteCadastroApi::validateRequired()
+    📝 Message: Validação falhou
+    📊 Data: {
+    "nome_completo": "Campo nome_completo é obrigatório",
+    "cpf": "Campo cpf é obrigatório",
+    "email": "Campo email é obrigatório",
+    "whatsapp": "Campo whatsapp é obrigatório",
+    "data_nascimento": "Campo data_nascimento é obrigatório",
+    "cep": "Campo cep é obrigatório",
+    "rua": "Campo rua é obrigatório",
+    "numero": "Campo numero é obrigatório",
+    "bairro": "Campo bairro é obrigatório",
+    "cidade": "Campo cidade é obrigatório",
+    "estado": "Campo estado é obrigatório",
+    "senha": "Campo senha é obrigatório"
+}
+    🌐 Request: POST /ClubeMix/api/cliente/cadastro.php
+    📍 Stack Trace:
+        #1 Logger.php:343 - Logger::error()
+        #2 ApiBase.php:220 - logError()
+        #3 cadastro.php:149 - ApiBase::validateRequired()
+        #4 cadastro.php:60 - ClienteCadastroApi::validateClientData()
+
+[2025-08-15 22:12:06.847] 🔴 [ERROR] ClienteCadastroApi::sendError()
+    📝 Message: Dados inválidos
+    📊 Data: {
+    "code": 400,
+    "errors": {
+        "nome_completo": "Campo nome_completo é obrigatório",
+        "cpf": "Campo cpf é obrigatório",
+        "email": "Campo email é obrigatório",
+        "whatsapp": "Campo whatsapp é obrigatório",
+        "data_nascimento": "Campo data_nascimento é obrigatório",
+        "cep": "Campo cep é obrigatório",
+        "rua": "Campo rua é obrigatório",
+        "numero": "Campo numero é obrigatório",
+        "bairro": "Campo bairro é obrigatório",
+        "cidade": "Campo cidade é obrigatório",
+        "estado": "Campo estado é obrigatório",
+        "senha": "Campo senha é obrigatório"
+    },
+    "method": "POST",
+    "request_data": {
+        "test": "data"
+    }
+}
+    🌐 Request: POST /ClubeMix/api/cliente/cadastro.php
+    📍 Stack Trace:
+        #1 Logger.php:343 - Logger::error()
+        #2 ApiBase.php:170 - logError()
+        #3 cadastro.php:63 - ApiBase::sendError()
+        #4 cadastro.php:27 - ClienteCadastroApi::cadastrarCliente()
+
+[2025-08-15 22:12:06.848] 📡 [API] ClienteCadastroApi::sendError()
+    📝 Message: Enviando resposta de erro
+    📊 Data: {
+    "success": false,
+    "message": "Dados inválidos",
+    "timestamp": "2025-08-15 22:12:06",
+    "errors": {
+        "nome_completo": "Campo nome_completo é obrigatório",
+        "cpf": "Campo cpf é obrigatório",
+        "email": "Campo email é obrigatório",
+        "whatsapp": "Campo whatsapp é obrigatório",
+        "data_nascimento": "Campo data_nascimento é obrigatório",
+        "cep": "Campo cep é obrigatório",
+        "rua": "Campo rua é obrigatório",
+        "numero": "Campo numero é obrigatório",
+        "bairro": "Campo bairro é obrigatório",
+        "cidade": "Campo cidade é obrigatório",
+        "estado": "Campo estado é obrigatório",
+        "senha": "Campo senha é obrigatório"
+    }
+}
+    🌐 Request: POST /ClubeMix/api/cliente/cadastro.php
+
+
+================================================================================
+🚀 CLUBEMIX DEBUG SESSION INICIADA - 2025-08-15 22:12:51
+================================================================================
+📍 IP: ::1
+🌐 User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+📄 Request URI: /ClubeMix/api/auth/login.php
+🔧 Request Method: POST
+================================================================================
+
+[2025-08-15 22:12:51.172] 🐛 [DEBUG] AuthLoginApi::__construct()
+    📝 Message: Iniciando construção da API
+    🌐 Request: POST /ClubeMix/api/auth/login.php
+    📍 Stack Trace:
+        #1 Logger.php:348 - Logger::debug()
+        #2 ApiBase.php:35 - logDebug()
+        #3 login.php:372 - ApiBase::__construct()
+
+[2025-08-15 22:12:51.172] 🐛 [DEBUG] AuthLoginApi::__construct()
+    📝 Message: Dados da requisição obtidos
+    📊 Data: {
+    "method": "POST",
+    "headers": [
+        "Host",
+        "Connection",
+        "Content-Length",
+        "Pragma",
+        "Cache-Control",
+        "sec-ch-ua-platform",
+        "sec-ch-ua",
+        "sec-ch-ua-mobile",
+        "X-Requested-With",
+        "User-Agent",
+        "Accept",
+        "DNT",
+        "Content-Type",
+        "Origin",
+        "Sec-Fetch-Site",
+        "Sec-Fetch-Mode",
+        "Sec-Fetch-Dest",
+        "Referer",
+        "Accept-Encoding",
+        "Accept-Language",
+        "Cookie"
+    ]
+}
+    🌐 Request: POST /ClubeMix/api/auth/login.php
+    📍 Stack Trace:
+        #1 Logger.php:348 - Logger::debug()
+        #2 ApiBase.php:40 - logDebug()
+        #3 login.php:372 - ApiBase::__construct()
+
+[2025-08-15 22:12:51.173] 🐛 [DEBUG] AuthLoginApi::__construct()
+    📝 Message: Dados da requisição processados
+    📊 Data: {
+    "request_size": 3
+}
+    🌐 Request: POST /ClubeMix/api/auth/login.php
+    📍 Stack Trace:
+        #1 Logger.php:348 - Logger::debug()
+        #2 ApiBase.php:47 - logDebug()
+        #3 login.php:372 - ApiBase::__construct()
+
+[2025-08-15 22:12:51.180] 🐛 [DEBUG] AuthLoginApi::__construct()
+    📝 Message: Conexão com banco obtida
+    🌐 Request: POST /ClubeMix/api/auth/login.php
+    📍 Stack Trace:
+        #1 Logger.php:348 - Logger::debug()
+        #2 ApiBase.php:62 - logDebug()
+        #3 login.php:372 - ApiBase::__construct()
+
+[2025-08-15 22:12:51.181] 🟢 [SUCCESS] AuthLoginApi::__construct()
+    📝 Message: API inicializada com sucesso
+    🌐 Request: POST /ClubeMix/api/auth/login.php
+
+[2025-08-15 22:12:51.182] 📡 [API] AuthLoginApi::processRequest()
+    📝 Message: Processando requisição de login
+    📊 Data: {
+    "method": "POST"
+}
+    🌐 Request: POST /ClubeMix/api/auth/login.php
+
+[2025-08-15 22:12:51.183] 🔵 [INFO] AuthLoginApi::fazerLogin()
+    📝 Message: Iniciando processo de login
+    🌐 Request: POST /ClubeMix/api/auth/login.php
+
+[2025-08-15 22:12:51.184] 🔒 [SECURITY] AuthLoginApi::fazerLogin()
+    📝 Message: Verificando proteção contra força bruta
+    📊 Data: {
+    "ip": "::1"
+}
+    🌐 Request: POST /ClubeMix/api/auth/login.php
+
+[2025-08-15 22:12:51.187] ✅ [VALIDATION] AuthLoginApi::fazerLogin()
+    📝 Message: Sanitizando dados de entrada
+    📊 Data: {
+    "raw_data_keys": [
+        "email",
+        "senha",
+        "lembrar"
+    ]
+}
+    🌐 Request: POST /ClubeMix/api/auth/login.php
+
+[2025-08-15 22:12:51.188] ✅ [VALIDATION] AuthLoginApi::fazerLogin()
+    📝 Message: Iniciando validação de dados
+    🌐 Request: POST /ClubeMix/api/auth/login.php
+
+[2025-08-15 22:12:51.188] ✅ [VALIDATION] AuthLoginApi::validateRequired()
+    📝 Message: Validando campos obrigatórios
+    📊 Data: {
+    "fields": [
+        "email",
+        "senha"
+    ],
+    "data_keys": [
+        "email",
+        "senha",
+        "lembrar"
+    ]
+}
+    🌐 Request: POST /ClubeMix/api/auth/login.php
+
+[2025-08-15 22:12:51.189] 🟢 [SUCCESS] AuthLoginApi::validateRequired()
+    📝 Message: Todos os campos obrigatórios estão presentes
+    🌐 Request: POST /ClubeMix/api/auth/login.php
+
+[2025-08-15 22:12:51.189] 🐛 [DEBUG] AuthLoginApi::buscarUsuarioPorEmail()
+    📝 Message: Buscando usuário por email
+    📊 Data: {
+    "email": "adriano.ssouza@gmail.com"
+}
+    🌐 Request: POST /ClubeMix/api/auth/login.php
+    📍 Stack Trace:
+        #1 Logger.php:348 - Logger::debug()
+        #2 login.php:196 - logDebug()
+        #3 login.php:67 - AuthLoginApi::buscarUsuarioPorEmail()
+        #4 login.php:27 - AuthLoginApi::fazerLogin()
+
+[2025-08-15 22:12:51.190] 🐛 [DEBUG] AuthLoginApi::buscarUsuarioPorEmail()
+    📝 Message: Resultado da busca
+    📊 Data: {
+    "email": "adriano.ssouza@gmail.com",
+    "result_count": 1,
+    "result": [
+        "id",
+        "uuid",
+        "email",
+        "senha",
+        "tipo_usuario",
+        "status",
+        "ultimo_login_sucesso"
+    ]
+}
+    🌐 Request: POST /ClubeMix/api/auth/login.php
+    📍 Stack Trace:
+        #1 Logger.php:348 - Logger::debug()
+        #2 login.php:205 - logDebug()
+        #3 login.php:67 - AuthLoginApi::buscarUsuarioPorEmail()
+        #4 login.php:27 - AuthLoginApi::fazerLogin()
+
+[2025-08-15 22:12:51.322] 🐛 [DEBUG] AuthLoginApi::gerarTokenSessao()
+    📝 Message: Gerando token de sessão
+    📊 Data: {
+    "usuario_id": 1,
+    "lembrar": ""
+}
+    🌐 Request: POST /ClubeMix/api/auth/login.php
+    📍 Stack Trace:
+        #1 Logger.php:348 - Logger::debug()
+        #2 login.php:271 - logDebug()
+        #3 login.php:106 - AuthLoginApi::gerarTokenSessao()
+        #4 login.php:27 - AuthLoginApi::fazerLogin()
+
+[2025-08-15 22:12:51.327] 🐛 [DEBUG] AuthLoginApi::gerarTokenSessao()
+    📝 Message: Token gerado com sucesso
+    📊 Data: {
+    "usuario_id": 1,
+    "token_length": 64
+}
+    🌐 Request: POST /ClubeMix/api/auth/login.php
+    📍 Stack Trace:
+        #1 Logger.php:348 - Logger::debug()
+        #2 login.php:295 - logDebug()
+        #3 login.php:106 - AuthLoginApi::gerarTokenSessao()
+        #4 login.php:27 - AuthLoginApi::fazerLogin()
+
+[2025-08-15 22:12:51.328] 🐛 [DEBUG] AuthLoginApi::registrarLogin()
+    📝 Message: Registrando tentativa de login
+    📊 Data: {
+    "usuario_id": 1,
+    "ip": "::1",
+    "sucesso": true
+}
+    🌐 Request: POST /ClubeMix/api/auth/login.php
+    📍 Stack Trace:
+        #1 Logger.php:348 - Logger::debug()
+        #2 login.php:315 - logDebug()
+        #3 login.php:109 - AuthLoginApi::registrarLogin()
+        #4 login.php:27 - AuthLoginApi::fazerLogin()
+
+[2025-08-15 22:12:51.338] 🐛 [DEBUG] AuthLoginApi::registrarLogin()
+    📝 Message: Tentativa de login registrada com sucesso
+    📊 Data: {
+    "usuario_id": 1,
+    "sucesso": true
+}
+    🌐 Request: POST /ClubeMix/api/auth/login.php
+    📍 Stack Trace:
+        #1 Logger.php:348 - Logger::debug()
+        #2 login.php:345 - logDebug()
+        #3 login.php:109 - AuthLoginApi::registrarLogin()
+        #4 login.php:27 - AuthLoginApi::fazerLogin()
+
+[2025-08-15 22:12:51.354] 🟢 [SUCCESS] AuthLoginApi::fazerLogin()
+    📝 Message: Login realizado com sucesso
+    📊 Data: {
+    "usuario_id": 1,
+    "tipo_usuario": "cliente"
+}
+    🌐 Request: POST /ClubeMix/api/auth/login.php
+
+[2025-08-15 22:12:51.354] 🟢 [SUCCESS] AuthLoginApi::sendSuccess()
+    📝 Message: Login realizado com sucesso!
+    📊 Data: {
+    "code": 200,
+    "has_data": true,
+    "data_type": "array"
+}
+    🌐 Request: POST /ClubeMix/api/auth/login.php
+
+[2025-08-15 22:12:51.355] 📡 [API] AuthLoginApi::sendSuccess()
+    📝 Message: Enviando resposta de sucesso
+    📊 Data: {
+    "success": true,
+    "message": "Login realizado com sucesso!",
+    "timestamp": "2025-08-15 22:12:51",
+    "data": {
+        "token": "381e8c31343a4b2da0fd01dca0883e25b1379d2ba23c9bc57d12bd100928c072",
+        "usuario": {
+            "id": 1,
+            "uuid": "b9fed437-78e9-4591-afb7-8275e6a70682",
+            "email": "adriano.ssouza@gmail.com",
+            "tipo_usuario": "cliente",
+            "status": "pendente",
+            "ultimo_login": "2025-08-16 01:04:24"
+        },
+        "dados_completos": {
+            "tipo": "cliente",
+            "dados": {
+                "id": 1,
+                "usuario_id": 1,
+                "nome_completo": "Adriano da Silva Souza",
+                "cpf": "30972595899",
+                "data_nascimento": "1989-10-17",
+                "whatsapp": "11984512298",
+                "cep": "01032001",
+                "rua": "Rua Brigadeiro Tobias",
+                "numero": "613",
+                "complemento": "apto 13",
+                "bairro": "Centro",
+                "cidade": "São Paulo",
+                "estado": "SP",
+                "codigo_indicacao": "CM313751",
+                "codigo_indicador": null,
+                "nivel_afiliacao": 0,
+                "saldo_disponivel": "0.00",
+                "total_ganho": "0.00",
+                "criado_em": "2025-08-15 17:47:51",
+                "atualizado_em": "2025-08-15 17:47:51",
+                "email": "adriano.ssouza@gmail.com",
+                "tipo_usuario": "cliente",
+                "status": "pendente"
+            }
+        },
+        "redirect_url": "\/dashboard.php"
+    }
+}
+    🌐 Request: POST /ClubeMix/api/auth/login.php
+
